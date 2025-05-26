@@ -65,6 +65,7 @@ public class Movement : MonoBehaviour
         Yspeed -= Decelerate * Time.deltaTime;
         if(Yspeed < 0)
             Yspeed = 0;
+
         Vector3 movement = new Vector3(0, Yspeed, 0);
         // Rotate the cube by converting the angles into a quaternion.
         transform.Translate(movement * velocity );
