@@ -1,0 +1,2188 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_0_49;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneLinux64:24</UnityBuildTarget>
+    <UnityVersion>6000.0.49f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/UpdateProgress.cs">
+      <Link>Editor/Gluon/UpdateProgress.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DropDownTextField.cs">
+      <Link>Editor/UI/DropDownTextField.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/DiffTreeView.cs">
+      <Link>Editor/Views/Diff/DiffTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesViewPendingChangeMenu.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesViewPendingChangeMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/MetaPath.cs">
+      <Link>Editor/MetaPath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/IncomingChangesSelection.cs">
+      <Link>Editor/Views/Merge/Gluon/IncomingChangesSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/PlasticProjectSettingsProvider.cs">
+      <Link>Editor/Settings/PlasticProjectSettingsProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/SignInWithEmailPanel.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/SignInWithEmailPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/CheckWorkspaceTreeNodeStatus.cs">
+      <Link>Editor/CheckWorkspaceTreeNodeStatus.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticApp.cs">
+      <Link>Editor/PlasticApp.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/PerformInitialCheckin.cs">
+      <Link>Editor/Views/CreateWorkspace/PerformInitialCheckin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ParentWindow.cs">
+      <Link>Editor/ParentWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticMenuItem.cs">
+      <Link>Editor/PlasticMenuItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EnumPopupSetting.cs">
+      <Link>Editor/UI/EnumPopupSetting.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/ClientConfiguration.cs">
+      <Link>Editor/Configuration/ClientConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/Dialogs/CheckinDialogOperations.cs">
+      <Link>Editor/AssetMenu/Dialogs/CheckinDialogOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/_Deprecated/WebApi/IsCollabProjectMigratedResponse.cs">
+      <Link>Editor/_Deprecated/WebApi/IsCollabProjectMigratedResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/ProgressOperationHandler.cs">
+      <Link>Editor/Developer/ProgressOperationHandler.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeSelection.cs">
+      <Link>Editor/Views/Merge/Developer/MergeSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/MovedEvilTwinMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/MovedEvilTwinMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/GenericProgress.cs">
+      <Link>Editor/Developer/GenericProgress.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DockEditorWindow.cs">
+      <Link>Editor/UI/DockEditorWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/ShelvedChangesNotification.cs">
+      <Link>Editor/Developer/ShelvedChangesNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/Cache/BuildPathDictionary.cs">
+      <Link>Editor/AssetOverlays/Cache/BuildPathDictionary.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchListViewItem.cs">
+      <Link>Editor/Views/Branch/BranchListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/StatusBar/INotificationContent.cs">
+      <Link>Editor/UI/StatusBar/INotificationContent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/LaunchDiffOperations.cs">
+      <Link>Editor/Views/Changesets/LaunchDiffOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/_Deprecated/WebApi/ChangesetFromCollabCommitResponse.cs">
+      <Link>Editor/_Deprecated/WebApi/ChangesetFromCollabCommitResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistoryListViewItem.cs">
+      <Link>Editor/Views/History/HistoryListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/Dialogs/CheckinDialog.cs">
+      <Link>Editor/AssetMenu/Dialogs/CheckinDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesTreeHeaderState.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesTreeHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/IncomingChangesTreeHeaderState.cs">
+      <Link>Editor/Views/Merge/Gluon/IncomingChangesTreeHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/ProjectViewAssetSelection.cs">
+      <Link>Editor/AssetMenu/ProjectViewAssetSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityConstants.cs">
+      <Link>Editor/UI/UnityConstants.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Images.cs">
+      <Link>Editor/UI/Images.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/DrawOperationSuccess.cs">
+      <Link>Editor/Views/PendingChanges/DrawOperationSuccess.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/ProgressOperationHandler.cs">
+      <Link>Editor/Gluon/ProgressOperationHandler.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/OrganizationsInformation.cs">
+      <Link>Editor/OrganizationsInformation.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistorySelection.cs">
+      <Link>Editor/Views/History/HistorySelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/ProjectPath.cs">
+      <Link>Editor/AssetsUtils/ProjectPath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/DrawCommentTextArea.cs">
+      <Link>Editor/Views/PendingChanges/DrawCommentTextArea.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/AutoLogin.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/AutoLogin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/Dialogs/DeleteBranchDialog.cs">
+      <Link>Editor/Views/Branch/Dialogs/DeleteBranchDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsTab_Operations.cs">
+      <Link>Editor/Views/Changesets/ChangesetsTab_Operations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsListView.cs">
+      <Link>Editor/Views/Changesets/ChangesetsListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/GetSelectedPaths.cs">
+      <Link>Editor/AssetsUtils/GetSelectedPaths.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelvesTab.cs">
+      <Link>Editor/Views/Shelves/ShelvesTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/Errors/ErrorListViewItem.cs">
+      <Link>Editor/Gluon/Errors/ErrorListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/AssetModificationProcessor.cs">
+      <Link>Editor/AssetsUtils/Processor/AssetModificationProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/LoadAsset.cs">
+      <Link>Editor/AssetsUtils/LoadAsset.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/SwitchModeConfirmationDialog.cs">
+      <Link>Editor/SwitchModeConfirmationDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Avatar/ApplyCircleMask.cs">
+      <Link>Editor/UI/Avatar/ApplyCircleMask.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticPluginIsEnabledPreference.cs">
+      <Link>Editor/PlasticPluginIsEnabledPreference.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/DrawTreeViewItem.cs">
+      <Link>Editor/UI/Tree/DrawTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityPlasticGuiMessage.cs">
+      <Link>Editor/UI/UnityPlasticGuiMessage.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsSelection.cs">
+      <Link>Editor/Views/Changesets/ChangesetsSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelvesListHeaderState.cs">
+      <Link>Editor/Views/Shelves/ShelvesListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TreeViewItemExtensions.cs">
+      <Link>Editor/UI/Tree/TreeViewItemExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/LaunchInstaller.cs">
+      <Link>Editor/Tool/LaunchInstaller.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EditorDispatcher.cs">
+      <Link>Editor/UI/EditorDispatcher.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawActionHelpBox.cs">
+      <Link>Editor/UI/DrawActionHelpBox.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/UpdateProgress.cs">
+      <Link>Editor/Developer/UpdateProgress.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ProjectPackages.cs">
+      <Link>Editor/ProjectPackages.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/UpdateReport/UpdateReportDialog.cs">
+      <Link>Editor/Gluon/UpdateReport/UpdateReportDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/ShelvedChangesNotification.cs">
+      <Link>Editor/Gluon/ShelvedChangesNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/FilesFilterPatternsMenuBuilder.cs">
+      <Link>Editor/Views/PendingChanges/FilesFilterPatternsMenuBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesSelection.cs">
+      <Link>Editor/Views/Branch/BranchesSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/ProgressControlsForDialogs.cs">
+      <Link>Editor/UI/Progress/ProgressControlsForDialogs.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ProjectWindow.cs">
+      <Link>Editor/ProjectWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/DependenciesDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/DependenciesDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeTreeView.cs">
+      <Link>Editor/Views/Merge/Developer/MergeTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/DivergentMoveMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/DivergentMoveMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/Dialogs/RepositoriesListView.cs">
+      <Link>Editor/Views/CreateWorkspace/Dialogs/RepositoriesListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawStaticElement.cs">
+      <Link>Editor/UI/DrawStaticElement.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/PlasticTreeView.cs">
+      <Link>Editor/UI/Tree/PlasticTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/RunModal.cs">
+      <Link>Editor/UI/RunModal.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksViewMenu.cs">
+      <Link>Editor/Views/Locks/LocksViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/PlasticDialog.cs">
+      <Link>Editor/UI/PlasticDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/UnityDiffTree.cs">
+      <Link>Editor/Views/Diff/UnityDiffTree.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/CurrentUserAdminCheckResponse.cs">
+      <Link>Editor/WebApi/CurrentUserAdminCheckResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/ChangelistTreeViewItem.cs">
+      <Link>Editor/Views/PendingChanges/ChangelistTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/DrawProgressForOperations.cs">
+      <Link>Editor/UI/Progress/DrawProgressForOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/CloseWindowIfOpened.cs">
+      <Link>Editor/UI/CloseWindowIfOpened.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawSearchField.cs">
+      <Link>Editor/UI/DrawSearchField.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/Cache/RemoteStatusCache.cs">
+      <Link>Editor/AssetOverlays/Cache/RemoteStatusCache.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/IsResolved.cs">
+      <Link>Editor/Views/Merge/Developer/IsResolved.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/GuiEnabled.cs">
+      <Link>Editor/UI/GuiEnabled.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesViewMenu.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/WebRestApiClient.cs">
+      <Link>Editor/WebApi/WebRestApiClient.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/CheckinConflictsDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/CheckinConflictsDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistoryTab.cs">
+      <Link>Editor/Views/History/HistoryTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/Dialogs/RenameBranchDialog.cs">
+      <Link>Editor/Views/Branch/Dialogs/RenameBranchDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/CooldownWindowDelayer.cs">
+      <Link>Editor/UI/CooldownWindowDelayer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesSelection.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistoryListViewMenu.cs">
+      <Link>Editor/Views/History/HistoryListViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeTreeHeaderState.cs">
+      <Link>Editor/Views/Merge/Developer/MergeTreeHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetFilesFilterPatternsMenuBuilder.cs">
+      <Link>Editor/AssetMenu/AssetFilesFilterPatternsMenuBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UVCPackageVersion.cs">
+      <Link>Editor/UVCPackageVersion.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelvesListView.cs">
+      <Link>Editor/Views/Shelves/ShelvesListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/LaunchCheckinConflictsDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/LaunchCheckinConflictsDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/IncomingChangesNotification.cs">
+      <Link>Editor/Developer/IncomingChangesNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Avatar/GetAvatar.cs">
+      <Link>Editor/UI/Avatar/GetAvatar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UnityConfigurationChecker.cs">
+      <Link>Editor/UnityConfigurationChecker.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/BringWindowToFront.cs">
+      <Link>Editor/Tool/BringWindowToFront.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/MoveAddMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/MoveAddMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EditorVersion.cs">
+      <Link>Editor/UI/EditorVersion.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/UnityMergeTree.cs">
+      <Link>Editor/Views/Merge/Developer/UnityMergeTree.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/CheckinProgress.cs">
+      <Link>Editor/Gluon/CheckinProgress.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/AuthToken.cs">
+      <Link>Editor/Tool/AuthToken.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/ChangeTreeViewItem.cs">
+      <Link>Editor/Views/Merge/Gluon/ChangeTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/SSOCredentialsDialog.cs">
+      <Link>Editor/Configuration/SSOCredentialsDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/EncryptionConfigurationDialog.cs">
+      <Link>Editor/Configuration/EncryptionConfigurationDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/EnumExtensions.cs">
+      <Link>Editor/EnumExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsListHeaderState.cs">
+      <Link>Editor/Views/Changesets/ChangesetsListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/DiffSelection.cs">
+      <Link>Editor/Views/Diff/DiffSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/UpdateReport/ErrorListViewItem.cs">
+      <Link>Editor/Gluon/UpdateReport/ErrorListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/Dialogs/RepositoryExplorerDialog.cs">
+      <Link>Editor/Views/CreateWorkspace/Dialogs/RepositoryExplorerDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/ChangeTreeViewItem.cs">
+      <Link>Editor/Views/PendingChanges/ChangeTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/AutoConfig.cs">
+      <Link>Editor/Configuration/AutoConfig.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/CycleMoveMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/CycleMoveMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/OtherOptionsFoldout.cs">
+      <Link>Editor/Settings/OtherOptionsFoldout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/StatusBar/GUIContentNotification.cs">
+      <Link>Editor/UI/StatusBar/GUIContentNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetCopyPathOperation.cs">
+      <Link>Editor/AssetMenu/AssetCopyPathOperation.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TableViewOperations.cs">
+      <Link>Editor/UI/Tree/TableViewOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetMenuItems.cs">
+      <Link>Editor/AssetMenu/AssetMenuItems.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/SaveAssets.cs">
+      <Link>Editor/AssetsUtils/SaveAssets.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeViewMenu.cs">
+      <Link>Editor/Views/Merge/Developer/MergeViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/IncomingChangesViewMenu.cs">
+      <Link>Editor/Views/Merge/Gluon/IncomingChangesViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/SerializableMergeTabState.cs">
+      <Link>Editor/Views/Merge/Developer/SerializableMergeTabState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingMergeLinks/MergeLinkListViewItem.cs">
+      <Link>Editor/Views/PendingChanges/PendingMergeLinks/MergeLinkListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksListViewItem.cs">
+      <Link>Editor/Views/Locks/LocksListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/IsCurrent.cs">
+      <Link>Editor/Views/Merge/Developer/IsCurrent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EditorProgressControls.cs">
+      <Link>Editor/UI/EditorProgressControls.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CredentialsDialog.cs">
+      <Link>Editor/Configuration/CredentialsDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsTab.cs">
+      <Link>Editor/Views/Changesets/ChangesetsTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/EnableSwitchAndShelveFeatureDialog.cs">
+      <Link>Editor/Views/EnableSwitchAndShelveFeatureDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawSplitter.cs">
+      <Link>Editor/UI/DrawSplitter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/StatusBar/StatusBar.cs">
+      <Link>Editor/UI/StatusBar/StatusBar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticPlugin.cs">
+      <Link>Editor/PlasticPlugin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/RepaintInspector.cs">
+      <Link>Editor/AssetsUtils/RepaintInspector.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TreeViewItemIds.cs">
+      <Link>Editor/UI/Tree/TreeViewItemIds.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticWindow.cs">
+      <Link>Editor/PlasticWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesTab_Operations.cs">
+      <Link>Editor/Views/Branch/BranchesTab_Operations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/LoadedTwiceMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/LoadedTwiceMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/CreateWorkspaceView.cs">
+      <Link>Editor/Views/CreateWorkspace/CreateWorkspaceView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AutoRefresh.cs">
+      <Link>Editor/AutoRefresh.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityPlasticTimer.cs">
+      <Link>Editor/UI/UnityPlasticTimer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawActionButtonWithMenu.cs">
+      <Link>Editor/UI/DrawActionButtonWithMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/ValidRepositoryName.cs">
+      <Link>Editor/Views/CreateWorkspace/ValidRepositoryName.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/LaunchTool.cs">
+      <Link>Editor/Tool/LaunchTool.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/SceneView/DrawSceneOperations.cs">
+      <Link>Editor/SceneView/DrawSceneOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ApplicationDataPath.cs">
+      <Link>Editor/ApplicationDataPath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TreeHeaderSettings.cs">
+      <Link>Editor/UI/Tree/TreeHeaderSettings.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesListHeaderState.cs">
+      <Link>Editor/Views/Branch/BranchesListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/ListViewItemIds.cs">
+      <Link>Editor/UI/Tree/ListViewItemIds.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/UpdateReport/UpdateReportListHeaderState.cs">
+      <Link>Editor/Developer/UpdateReport/UpdateReportListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/IsExeVersion.cs">
+      <Link>Editor/Tool/IsExeVersion.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/DiffPanel.cs">
+      <Link>Editor/Views/Diff/DiffPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticShutdown.cs">
+      <Link>Editor/PlasticShutdown.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/CheckinProgress.cs">
+      <Link>Editor/Developer/CheckinProgress.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetListViewItem.cs">
+      <Link>Editor/Views/Changesets/ChangesetListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/UnityIncomingChangesTree.cs">
+      <Link>Editor/Views/Merge/Gluon/UnityIncomingChangesTree.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingMergeLinks/MergeLinksListView.cs">
+      <Link>Editor/Views/PendingChanges/PendingMergeLinks/MergeLinksListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/AddMoveMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/AddMoveMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/DrawDirectoryResolutionPanel.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/DrawDirectoryResolutionPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/GetClientDiffInfos.cs">
+      <Link>Editor/Views/Diff/GetClientDiffInfos.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityThreadWaiter.cs">
+      <Link>Editor/UI/UnityThreadWaiter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/ScreenResolution.cs">
+      <Link>Editor/UI/ScreenResolution.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/GUIActionRunner.cs">
+      <Link>Editor/UI/GUIActionRunner.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/DrawProgressForDialogs.cs">
+      <Link>Editor/UI/Progress/DrawProgressForDialogs.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Welcome/MacOSConfigWorkaround.cs">
+      <Link>Editor/Views/Welcome/MacOSConfigWorkaround.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/VisualElementExtensions.cs">
+      <Link>Editor/VisualElementExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/DrawPendingChangesEmptyState.cs">
+      <Link>Editor/Views/PendingChanges/DrawPendingChangesEmptyState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelvesViewMenu.cs">
+      <Link>Editor/Views/Shelves/ShelvesViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/GetChangesOverlayIcon.cs">
+      <Link>Editor/UI/Tree/GetChangesOverlayIcon.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/CloudEditionWelcomeWindow.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/CloudEditionWelcomeWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/CommandLineArguments.cs">
+      <Link>Editor/Hub/CommandLineArguments.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/Operations/DownloadRepository.cs">
+      <Link>Editor/Hub/Operations/DownloadRepository.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/BuildGetEventExtraInfoFunction.cs">
+      <Link>Editor/BuildGetEventExtraInfoFunction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CredentialsUIImpl.cs">
+      <Link>Editor/Configuration/CredentialsUIImpl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesTab_Operations.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesTab_Operations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Avatar/AvatarImages.cs">
+      <Link>Editor/UI/Avatar/AvatarImages.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/UnityCloudProjectLinkMonitor.cs">
+      <Link>Editor/AssetsUtils/Processor/UnityCloudProjectLinkMonitor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/MeasureMaxWidth.cs">
+      <Link>Editor/UI/MeasureMaxWidth.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/SaveAction.cs">
+      <Link>Editor/Views/History/SaveAction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/ChangeCategoryTreeViewItem.cs">
+      <Link>Editor/Views/Merge/Gluon/ChangeCategoryTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawCopyableLabel.cs">
+      <Link>Editor/UI/DrawCopyableLabel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/DateFilter.cs">
+      <Link>Editor/Views/Changesets/DateFilter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/DrawGuiModeSwitcher.cs">
+      <Link>Editor/DrawGuiModeSwitcher.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/_Deprecated/CollabPlugin.cs">
+      <Link>Editor/_Deprecated/CollabPlugin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/DrawCreateWorkspaceView.cs">
+      <Link>Editor/Views/CreateWorkspace/DrawCreateWorkspaceView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/DeleteChangeMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/DeleteChangeMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/ConflictResolutionState.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/ConflictResolutionState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/AssetsProcessor.cs">
+      <Link>Editor/AssetsUtils/Processor/AssetsProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetMenuOperations.cs">
+      <Link>Editor/AssetMenu/AssetMenuOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityMenuItem.cs">
+      <Link>Editor/UI/UnityMenuItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/GetRelativePath.cs">
+      <Link>Editor/GetRelativePath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/UpdateReport/UpdateReportLineListViewItem.cs">
+      <Link>Editor/Developer/UpdateReport/UpdateReportLineListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelveListViewItem.cs">
+      <Link>Editor/Views/Shelves/ShelveListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesStatusSuccessNotificationContent.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesStatusSuccessNotificationContent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UIElements/ProgressControlsForDialogs.cs">
+      <Link>Editor/UI/UIElements/ProgressControlsForDialogs.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Changelists/MoveToChangelistMenuBuilder.cs">
+      <Link>Editor/Views/PendingChanges/Changelists/MoveToChangelistMenuBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesMultiColumnHeader.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesMultiColumnHeader.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/ChangeCategoryTreeViewItem.cs">
+      <Link>Editor/Views/Diff/ChangeCategoryTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/Cache/AssetStatusCache.cs">
+      <Link>Editor/AssetOverlays/Cache/AssetStatusCache.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/_Deprecated/CollabMigration/MigrateCollabProject.cs">
+      <Link>Editor/_Deprecated/CollabMigration/MigrateCollabProject.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistoryListView.cs">
+      <Link>Editor/Views/History/HistoryListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DialogWithCheckBox.cs">
+      <Link>Editor/UI/DialogWithCheckBox.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/HandleMenuItem.cs">
+      <Link>Editor/UI/HandleMenuItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/NewIncomingChanges.cs">
+      <Link>Editor/NewIncomingChanges.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/AssetPostprocessor.cs">
+      <Link>Editor/AssetsUtils/Processor/AssetPostprocessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/ChannelCertificateUiImpl.cs">
+      <Link>Editor/Configuration/ChannelCertificateUiImpl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TreeHeaderColumns.cs">
+      <Link>Editor/UI/Tree/TreeHeaderColumns.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/_Deprecated/WebApi/OrganizationCredentials.cs">
+      <Link>Editor/_Deprecated/WebApi/OrganizationCredentials.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/IncomingChangesTab.cs">
+      <Link>Editor/Views/Merge/Gluon/IncomingChangesTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawActionToolbar.cs">
+      <Link>Editor/UI/DrawActionToolbar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/CreateChangelistDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/CreateChangelistDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/Operations/CreateWorkspace.cs">
+      <Link>Editor/Hub/Operations/CreateWorkspace.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesTreeView.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/ProcessHubCommand.cs">
+      <Link>Editor/Hub/ProcessHubCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetsSelection.cs">
+      <Link>Editor/AssetMenu/AssetsSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/OverlayRect.cs">
+      <Link>Editor/UI/OverlayRect.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/AssetStatus.cs">
+      <Link>Editor/AssetOverlays/AssetStatus.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/DrawMergeOverview.cs">
+      <Link>Editor/Views/Merge/DrawMergeOverview.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/ShelveAndSwitchOptionsFoldout.cs">
+      <Link>Editor/Settings/ShelveAndSwitchOptionsFoldout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ViewSwitcher.cs">
+      <Link>Editor/ViewSwitcher.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Gluon/IncomingChangesTreeView.cs">
+      <Link>Editor/Views/Merge/Gluon/IncomingChangesTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Shelves/ShelvesSelection.cs">
+      <Link>Editor/Views/Shelves/ShelvesSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/IsExeAvailable.cs">
+      <Link>Editor/Tool/IsExeAvailable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/PlasticSplitterGUILayout.cs">
+      <Link>Editor/UI/PlasticSplitterGUILayout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/Dialogs/CreateBranchDialog.cs">
+      <Link>Editor/Views/Branch/Dialogs/CreateBranchDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/DrawLocksListViewItem.cs">
+      <Link>Editor/Views/Locks/DrawLocksListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WorkspaceWindow.cs">
+      <Link>Editor/WorkspaceWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/Errors/ErrorsListHeaderState.cs">
+      <Link>Editor/Gluon/Errors/ErrorsListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Welcome/WelcomeView.cs">
+      <Link>Editor/Views/Welcome/WelcomeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Changelists/ChangelistMenu.cs">
+      <Link>Editor/Views/PendingChanges/Changelists/ChangelistMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticNotification.cs">
+      <Link>Editor/PlasticNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/ShowWindow.cs">
+      <Link>Editor/UI/ShowWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawActionButton.cs">
+      <Link>Editor/UI/DrawActionButton.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/ChangeTreeViewItem.cs">
+      <Link>Editor/Views/Merge/Developer/ChangeTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UIElements/LoadingSpinner.cs">
+      <Link>Editor/UI/UIElements/LoadingSpinner.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/ApplyShelveWithConflictsQuestionerBuilder.cs">
+      <Link>Editor/Views/ApplyShelveWithConflictsQuestionerBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksSelector.cs">
+      <Link>Editor/Views/Locks/LocksSelector.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/Cache/LocalStatusCache.cs">
+      <Link>Editor/AssetOverlays/Cache/LocalStatusCache.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetMenu/AssetVcsOperations.cs">
+      <Link>Editor/AssetMenu/AssetVcsOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/CredentialsResponse.cs">
+      <Link>Editor/WebApi/CredentialsResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/DiffTreeViewMenu.cs">
+      <Link>Editor/Views/Diff/DiffTreeViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/TokenExchangeResponse.cs">
+      <Link>Editor/WebApi/TokenExchangeResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Welcome/GetInstallerTmpFileName.cs">
+      <Link>Editor/Views/Welcome/GetInstallerTmpFileName.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/DiffAndMergeOptionsFoldout.cs">
+      <Link>Editor/Settings/DiffAndMergeOptionsFoldout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/GetWindowIfOpened.cs">
+      <Link>Editor/UI/GetWindowIfOpened.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/ChangeCategoryTreeViewItem.cs">
+      <Link>Editor/Views/PendingChanges/ChangeCategoryTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksTab.cs">
+      <Link>Editor/Views/Locks/LocksTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/EmptyCommentDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/EmptyCommentDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/ExternalLink.cs">
+      <Link>Editor/ExternalLink.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/FileSystemOperation.cs">
+      <Link>Editor/Views/FileSystemOperation.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeOptionsDialog.cs">
+      <Link>Editor/Views/Merge/Developer/MergeOptionsDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesViewMenu.cs">
+      <Link>Editor/Views/Branch/BranchesViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/ErrorResponse.cs">
+      <Link>Editor/WebApi/ErrorResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/WebApi/SubscriptionDetailsResponse.cs">
+      <Link>Editor/WebApi/SubscriptionDetailsResponse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/MoveDeleteMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/MoveDeleteMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/PlasticExeLauncher.cs">
+      <Link>Editor/Tool/PlasticExeLauncher.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/PendingChangesOptionsFoldout.cs">
+      <Link>Editor/Settings/PendingChangesOptionsFoldout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/WriteLogConfiguration.cs">
+      <Link>Editor/Configuration/WriteLogConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/ToolConfig.cs">
+      <Link>Editor/Configuration/ToolConfig.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/ShelvePendingChangesDialog.cs">
+      <Link>Editor/Views/ShelvePendingChangesDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeViewFileConflictMenu.cs">
+      <Link>Editor/Views/Merge/Developer/MergeViewFileConflictMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/GetPlasticShortcut.cs">
+      <Link>Editor/UI/GetPlasticShortcut.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawUserIcon.cs">
+      <Link>Editor/UI/DrawUserIcon.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/MergeViewDirectoryConflictMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/MergeViewDirectoryConflictMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/DrawAssetOverlay.cs">
+      <Link>Editor/AssetOverlays/DrawAssetOverlay.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/FilterRulesConfirmationDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/FilterRulesConfirmationDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EditorWindowFocus.cs">
+      <Link>Editor/UI/EditorWindowFocus.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/DeleteMoveMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/DeleteMoveMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/Operations/OperationParams.cs">
+      <Link>Editor/Hub/Operations/OperationParams.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/UpdateReport/UpdateReportDialog.cs">
+      <Link>Editor/Developer/UpdateReport/UpdateReportDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/CreatedChangesetData.cs">
+      <Link>Editor/Views/PendingChanges/CreatedChangesetData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/BoolSetting.cs">
+      <Link>Editor/UI/BoolSetting.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/FindTool.cs">
+      <Link>Editor/Tool/FindTool.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/OrganizationPanel.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/OrganizationPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksListView.cs">
+      <Link>Editor/Views/Locks/LocksListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssemblyInfo.cs">
+      <Link>Editor/AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/QueryVisualElementsExtensions.cs">
+      <Link>Editor/QueryVisualElementsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesListView.cs">
+      <Link>Editor/Views/Branch/BranchesListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/PendingChangesTab.cs">
+      <Link>Editor/Views/PendingChanges/PendingChangesTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/IIncomingChangesTab.cs">
+      <Link>Editor/Views/Merge/IIncomingChangesTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Inspector/InspectorAssetSelection.cs">
+      <Link>Editor/Inspector/InspectorAssetSelection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/DrawProgressForViews.cs">
+      <Link>Editor/UI/Progress/DrawProgressForViews.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/Dialogs/LaunchDependenciesDialog.cs">
+      <Link>Editor/Views/PendingChanges/Dialogs/LaunchDependenciesDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/EvilTwinMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/EvilTwinMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/IncomingChangesNotification.cs">
+      <Link>Editor/Gluon/IncomingChangesNotification.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs">
+      <Link>Editor/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/VCSPlugin.cs">
+      <Link>Editor/VCSPlugin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/MergeCategoryTreeViewItem.cs">
+      <Link>Editor/Views/Diff/MergeCategoryTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/SerializableHistoryTabState.cs">
+      <Link>Editor/Views/History/SerializableHistoryTabState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Inspector/DrawInspectorOperations.cs">
+      <Link>Editor/Inspector/DrawInspectorOperations.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/MergeTab.cs">
+      <Link>Editor/Views/Merge/Developer/MergeTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/ProgressControlsForViews.cs">
+      <Link>Editor/UI/Progress/ProgressControlsForViews.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/AssetsPath.cs">
+      <Link>Editor/AssetsUtils/AssetsPath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/TabButton.cs">
+      <Link>Editor/UI/TabButton.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/DrawTextBlockWithLink.cs">
+      <Link>Editor/UI/DrawTextBlockWithLink.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/ChangeCategoryTreeViewItem.cs">
+      <Link>Editor/Views/Merge/Developer/ChangeCategoryTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/Dialogs/GetRestorePathDialog.cs">
+      <Link>Editor/Views/Diff/Dialogs/GetRestorePathDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/ConfirmContinueWithPendingChangesDialog.cs">
+      <Link>Editor/Views/ConfirmContinueWithPendingChangesDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/EditorProgressBar.cs">
+      <Link>Editor/UI/EditorProgressBar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/DrawTreeViewEmptyState.cs">
+      <Link>Editor/UI/Tree/DrawTreeViewEmptyState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/FindWorkspace.cs">
+      <Link>Editor/FindWorkspace.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/SortOrderComparer.cs">
+      <Link>Editor/UI/SortOrderComparer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/ResponseType.cs">
+      <Link>Editor/UI/ResponseType.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/CloudEdition/Welcome/SignInPanel.cs">
+      <Link>Editor/Configuration/CloudEdition/Welcome/SignInPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Diff/ClientDiffTreeViewItem.cs">
+      <Link>Editor/Views/Diff/ClientDiffTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/Errors/ErrorsPanel.cs">
+      <Link>Editor/Gluon/Errors/ErrorsPanel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/Dialogs/RepositoryListViewItem.cs">
+      <Link>Editor/Views/CreateWorkspace/Dialogs/RepositoryListViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/SerializableBranchesTabState.cs">
+      <Link>Editor/Views/Branch/SerializableBranchesTabState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Tree/TreeViewSessionState.cs">
+      <Link>Editor/UI/Tree/TreeViewSessionState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/TeamEdition/TeamEditionConfigurationWindow.cs">
+      <Link>Editor/Configuration/TeamEdition/TeamEditionConfigurationWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/FindEditorWindow.cs">
+      <Link>Editor/UI/FindEditorWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Changesets/ChangesetsViewMenu.cs">
+      <Link>Editor/Views/Changesets/ChangesetsViewMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/ConfigurePartialWorkspace.cs">
+      <Link>Editor/Configuration/ConfigurePartialWorkspace.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Hub/ParseArguments.cs">
+      <Link>Editor/Hub/ParseArguments.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/DownloadPlasticExeDialog.cs">
+      <Link>Editor/Views/DownloadPlasticExeDialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/RefreshAsset.cs">
+      <Link>Editor/AssetsUtils/RefreshAsset.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetOverlays/Cache/LockStatusCache.cs">
+      <Link>Editor/AssetOverlays/Cache/LockStatusCache.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Settings/OpenPlasticProjectSettings.cs">
+      <Link>Editor/Settings/OpenPlasticProjectSettings.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/UpdateReport/UpdateReportListView.cs">
+      <Link>Editor/Gluon/UpdateReport/UpdateReportListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/PendingChanges/UnityPendingChangesTree.cs">
+      <Link>Editor/Views/PendingChanges/UnityPendingChangesTree.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Merge/Developer/DirectoryConflicts/ChangeDeleteMenu.cs">
+      <Link>Editor/Views/Merge/Developer/DirectoryConflicts/ChangeDeleteMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/StatusBar/NotificationBar.cs">
+      <Link>Editor/UI/StatusBar/NotificationBar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/Progress/OperationProgressData.cs">
+      <Link>Editor/UI/Progress/OperationProgressData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Branch/BranchesTab.cs">
+      <Link>Editor/Views/Branch/BranchesTab.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/UpdateReport/UpdateReportListHeaderState.cs">
+      <Link>Editor/Gluon/UpdateReport/UpdateReportListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityStyles.cs">
+      <Link>Editor/UI/UnityStyles.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/PlasticAssetsProcessor.cs">
+      <Link>Editor/AssetsUtils/Processor/PlasticAssetsProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Tool/ToolConstants.cs">
+      <Link>Editor/Tool/ToolConstants.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Welcome/DownloadAndInstallOperation.cs">
+      <Link>Editor/Views/Welcome/DownloadAndInstallOperation.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/Locks/LocksListHeaderState.cs">
+      <Link>Editor/Views/Locks/LocksListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Gluon/Errors/ErrorsListView.cs">
+      <Link>Editor/Gluon/Errors/ErrorsListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/CreateWorkspaceViewState.cs">
+      <Link>Editor/Views/CreateWorkspace/CreateWorkspaceViewState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Developer/UpdateReport/UpdateReportListView.cs">
+      <Link>Editor/Developer/UpdateReport/UpdateReportListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UnityEvents.cs">
+      <Link>Editor/UI/UnityEvents.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/SelectNewCodeReviewBehavior.cs">
+      <Link>Editor/Views/SelectNewCodeReviewBehavior.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/PlasticConnectionMonitor.cs">
+      <Link>Editor/PlasticConnectionMonitor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/UI/UIElements/UIElementsExtensions.cs">
+      <Link>Editor/UI/UIElements/UIElementsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/AssetsUtils/Processor/WorkspaceOperationsMonitor.cs">
+      <Link>Editor/AssetsUtils/Processor/WorkspaceOperationsMonitor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Configuration/MissingEncryptionPasswordPromptHandler.cs">
+      <Link>Editor/Configuration/MissingEncryptionPasswordPromptHandler.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/History/HistoryListHeaderState.cs">
+      <Link>Editor/Views/History/HistoryListHeaderState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Views/CreateWorkspace/Dialogs/CreateRepositoryDialog.cs">
+      <Link>Editor/Views/CreateWorkspace/Dialogs/CreateRepositoryDialog.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/DownloadPlasticExeDialog.uss">
+      <Link>Editor/Assets/Styles/DownloadPlasticExeDialog.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/WaitingSignInPanel.uss">
+      <Link>Editor/Assets/Styles/WaitingSignInPanel.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/TabView.uxml">
+      <Link>Editor/Assets/Layouts/TabView.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/ProgressControlsForDialogs.uss">
+      <Link>Editor/Assets/Styles/ProgressControlsForDialogs.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/WaitingSignInPanel.uxml">
+      <Link>Editor/Assets/Layouts/WaitingSignInPanel.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/SignInWithEmailPanel.uxml">
+      <Link>Editor/Assets/Layouts/SignInWithEmailPanel.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/SignInWithEmailPanel.uss">
+      <Link>Editor/Assets/Styles/SignInWithEmailPanel.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/OrganizationPanel.uss">
+      <Link>Editor/Assets/Styles/OrganizationPanel.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/TeamEditionConfigurationWindow.uxml">
+      <Link>Editor/Assets/Layouts/TeamEditionConfigurationWindow.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/OrganizationPanel.uxml">
+      <Link>Editor/Assets/Layouts/OrganizationPanel.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/SignInPanel.uss">
+      <Link>Editor/Assets/Styles/SignInPanel.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/PlasticWindow/StatusBar.uxml">
+      <Link>Editor/Assets/Layouts/PlasticWindow/StatusBar.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/SignInPanel.uxml">
+      <Link>Editor/Assets/Layouts/SignInPanel.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/TabView.uss">
+      <Link>Editor/Assets/Styles/TabView.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/CreatedOrganizationPanel.uxml">
+      <Link>Editor/Assets/Layouts/CreatedOrganizationPanel.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Unity.PlasticSCM.Editor.asmdef">
+      <Link>Editor/Unity.PlasticSCM.Editor.asmdef</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/TeamEditionConfigurationWindow.uss">
+      <Link>Editor/Assets/Styles/TeamEditionConfigurationWindow.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/DownloadPlasticExeDialog.uxml">
+      <Link>Editor/Assets/Layouts/DownloadPlasticExeDialog.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Styles/Base.uss">
+      <Link>Editor/Assets/Styles/Base.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Editor/Assets/Layouts/ProgressControlsForDialogs.uxml">
+      <Link>Editor/Assets/Layouts/ProgressControlsForDialogs.uxml</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AMDModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.Apple.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+    <ProjectReference Include="UnityEngine.TestRunner.csproj" />
+    <ProjectReference Include="UnityEditor.TestRunner.csproj" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>

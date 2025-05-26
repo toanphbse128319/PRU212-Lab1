@@ -1,0 +1,2444 @@
+fileFormatVersion: 2
+guid: 481188904e10f55f19a57c156d81b035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7738834028986498435
+    second: 48-482933_minecraft-explosion_0
+  - first:
+      213: 4490510087678976859
+    second: 48-482933_minecraft-explosion_1
+  - first:
+      213: -7620147068622227679
+    second: 48-482933_minecraft-explosion_2
+  - first:
+      213: -6922906861113105621
+    second: 48-482933_minecraft-explosion_3
+  - first:
+      213: 9089175202069268875
+    second: 48-482933_minecraft-explosion_4
+  - first:
+      213: 3773739585834350214
+    second: 48-482933_minecraft-explosion_5
+  - first:
+      213: 9215724441618301112
+    second: 48-482933_minecraft-explosion_6
+  - first:
+      213: -4774930814104269921
+    second: 48-482933_minecraft-explosion_7
+  - first:
+      213: 4625044236388978944
+    second: 48-482933_minecraft-explosion_8
+  - first:
+      213: 769002987623809669
+    second: 48-482933_minecraft-explosion_9
+  - first:
+      213: 7892306936798506412
+    second: 48-482933_minecraft-explosion_10
+  - first:
+      213: 1046601845491208693
+    second: 48-482933_minecraft-explosion_11
+  - first:
+      213: 1528588312388872687
+    second: 48-482933_minecraft-explosion_12
+  - first:
+      213: -4517432998162117657
+    second: 48-482933_minecraft-explosion_13
+  - first:
+      213: -5913553376596771289
+    second: 48-482933_minecraft-explosion_14
+  - first:
+      213: 6421252133471683904
+    second: 48-482933_minecraft-explosion_15
+  - first:
+      213: -783676101848764041
+    second: 48-482933_minecraft-explosion_16
+  - first:
+      213: 7121440914929925857
+    second: 48-482933_minecraft-explosion_17
+  - first:
+      213: -7133117581374547952
+    second: 48-482933_minecraft-explosion_18
+  - first:
+      213: 6596292173451469044
+    second: 48-482933_minecraft-explosion_19
+  - first:
+      213: 1232387489326644746
+    second: 48-482933_minecraft-explosion_20
+  - first:
+      213: 2077339700926419918
+    second: 48-482933_minecraft-explosion_21
+  - first:
+      213: -4823112271945494001
+    second: 48-482933_minecraft-explosion_22
+  - first:
+      213: 6381902000288836422
+    second: 48-482933_minecraft-explosion_23
+  - first:
+      213: -908628484809587217
+    second: 48-482933_minecraft-explosion_24
+  - first:
+      213: -5395401963955995934
+    second: 48-482933_minecraft-explosion_25
+  - first:
+      213: 9211946051444423079
+    second: 48-482933_minecraft-explosion_26
+  - first:
+      213: 3415891228501783839
+    second: 48-482933_minecraft-explosion_27
+  - first:
+      213: 2517581417267384608
+    second: 48-482933_minecraft-explosion_28
+  - first:
+      213: 7573233288056242627
+    second: 48-482933_minecraft-explosion_29
+  - first:
+      213: -2648813314219981720
+    second: 48-482933_minecraft-explosion_30
+  - first:
+      213: -806952948463191112
+    second: 48-482933_minecraft-explosion_31
+  - first:
+      213: -3229246053574152216
+    second: 48-482933_minecraft-explosion_32
+  - first:
+      213: 313280484371358251
+    second: 48-482933_minecraft-explosion_33
+  - first:
+      213: -1409117177328762221
+    second: 48-482933_minecraft-explosion_34
+  - first:
+      213: 6788081888338688555
+    second: 48-482933_minecraft-explosion_35
+  - first:
+      213: -2380042494195565465
+    second: 48-482933_minecraft-explosion_36
+  - first:
+      213: -7322943136636039224
+    second: 48-482933_minecraft-explosion_37
+  - first:
+      213: -2623370819857769460
+    second: 48-482933_minecraft-explosion_38
+  - first:
+      213: -2981134001906439476
+    second: 48-482933_minecraft-explosion_39
+  - first:
+      213: 2028709032215429926
+    second: 48-482933_minecraft-explosion_40
+  - first:
+      213: -265980742278689689
+    second: 48-482933_minecraft-explosion_41
+  - first:
+      213: 3503048510147384226
+    second: 48-482933_minecraft-explosion_42
+  - first:
+      213: -9088037618832446210
+    second: 48-482933_minecraft-explosion_43
+  - first:
+      213: -993959098720884048
+    second: 48-482933_minecraft-explosion_44
+  - first:
+      213: 5109734054637762047
+    second: 48-482933_minecraft-explosion_45
+  - first:
+      213: -4912022189554388787
+    second: 48-482933_minecraft-explosion_46
+  - first:
+      213: 1137457733383360802
+    second: 48-482933_minecraft-explosion_47
+  - first:
+      213: -3082080243169551445
+    second: 48-482933_minecraft-explosion_48
+  - first:
+      213: -4822591691478916545
+    second: 48-482933_minecraft-explosion_49
+  - first:
+      213: 311203219762248489
+    second: 48-482933_minecraft-explosion_50
+  - first:
+      213: 6084411503661961643
+    second: 48-482933_minecraft-explosion_51
+  - first:
+      213: 1981098239071802713
+    second: 48-482933_minecraft-explosion_52
+  - first:
+      213: 3284322810591524465
+    second: 48-482933_minecraft-explosion_53
+  - first:
+      213: 1030010188380523701
+    second: 48-482933_minecraft-explosion_54
+  - first:
+      213: -4284647017659071733
+    second: 48-482933_minecraft-explosion_55
+  - first:
+      213: 1095396056924136465
+    second: 48-482933_minecraft-explosion_56
+  - first:
+      213: -4314523253298957836
+    second: 48-482933_minecraft-explosion_57
+  - first:
+      213: 3878603368195232513
+    second: 48-482933_minecraft-explosion_58
+  - first:
+      213: 4859426533574277674
+    second: 48-482933_minecraft-explosion_59
+  - first:
+      213: 1127148177350300213
+    second: 48-482933_minecraft-explosion_60
+  - first:
+      213: 3500923726370946794
+    second: 48-482933_minecraft-explosion_61
+  - first:
+      213: 5606074105529550756
+    second: 48-482933_minecraft-explosion_62
+  - first:
+      213: 7351014604062688243
+    second: 48-482933_minecraft-explosion_63
+  - first:
+      213: 544176315153775253
+    second: 48-482933_minecraft-explosion_64
+  - first:
+      213: 8097406744846357599
+    second: 48-482933_minecraft-explosion_65
+  - first:
+      213: -5002769758106349330
+    second: 48-482933_minecraft-explosion_66
+  - first:
+      213: 1302431480656266095
+    second: 48-482933_minecraft-explosion_67
+  - first:
+      213: 1027866225159935459
+    second: 48-482933_minecraft-explosion_68
+  - first:
+      213: -1342883308108373320
+    second: 48-482933_minecraft-explosion_69
+  - first:
+      213: -4699439086906049206
+    second: 48-482933_minecraft-explosion_70
+  - first:
+      213: 4608925075928034803
+    second: 48-482933_minecraft-explosion_71
+  - first:
+      213: 2206262401641685519
+    second: 48-482933_minecraft-explosion_72
+  - first:
+      213: 406718040419849686
+    second: 48-482933_minecraft-explosion_73
+  - first:
+      213: 8875775141116356884
+    second: 48-482933_minecraft-explosion_74
+  - first:
+      213: -3742848066446017449
+    second: 48-482933_minecraft-explosion_75
+  - first:
+      213: 2283196880999704443
+    second: 48-482933_minecraft-explosion_76
+  - first:
+      213: -2955933998043699934
+    second: 48-482933_minecraft-explosion_77
+  - first:
+      213: 8729743823680386392
+    second: 48-482933_minecraft-explosion_78
+  - first:
+      213: -1967006754847183106
+    second: 48-482933_minecraft-explosion_79
+  - first:
+      213: -3310402063261230658
+    second: 48-482933_minecraft-explosion_80
+  - first:
+      213: 6067041984293353886
+    second: 48-482933_minecraft-explosion_81
+  - first:
+      213: 6262626675846062338
+    second: 48-482933_minecraft-explosion_82
+  - first:
+      213: 2136956799529714825
+    second: 48-482933_minecraft-explosion_83
+  - first:
+      213: 7234227438331050473
+    second: 48-482933_minecraft-explosion_84
+  - first:
+      213: -3666291171993301432
+    second: 48-482933_minecraft-explosion_85
+  - first:
+      213: 8496090416734795325
+    second: 48-482933_minecraft-explosion_86
+  - first:
+      213: 6637341439061465615
+    second: 48-482933_minecraft-explosion_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 793
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ddc14f4d48caaecafef4f25e07556e
+      internalID: -1658973905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 789
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82117b4fe41a3ba7bb113da2c9e9c476
+      internalID: 1160072109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 785
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dfe3b24f0906cca881a8e79f1d13d7
+      internalID: -410053341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 782
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec59b31ad2654196d8f56774380fb34b
+      internalID: -942643479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 779
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2693d9c6041db20ba9a2c7f870e61c9
+      internalID: -106829190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 776
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f7129cd3f56d32d9729b1c23a078ae
+      internalID: -909458775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 774
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef86d982765f329b19ea8a1bc44fca36
+      internalID: 285904800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 772
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ab5b0a3ebeb96078311b2f9479bb6f
+      internalID: 2076933826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 771
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca1dbf9e48cc22c94899859d152b27
+      internalID: 1496003899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 669
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be517403197cd240bea3f6dee11f263
+      internalID: -682278243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 668
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d0528bbffe09917924b52535985bc1
+      internalID: -122868022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 667
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a86c8ceb6912128cdeda9bd1219a2
+      internalID: -44188580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 666
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39523ed62caba34b13ee65bcd52d5f
+      internalID: -541199420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 666
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a17aa3fee12e6d692f2a1fc65d9f69
+      internalID: -869135631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 665
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5394f849d282c5252b65c84baf7a68ce
+      internalID: 778696636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 665
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9ea20680c001b2992fe762abef8eb
+      internalID: -1586397912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_16
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 664
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2dab8c1cf390f7b8826b1642d05a0a
+      internalID: -2037974518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 664
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e49eb66335588796a178505c4530d
+      internalID: -1054320625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 462
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e41a99c6b0c578e1b083ed31dc1ec74
+      internalID: 952200946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 564
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd3aee57c63cd815a9d9193342660e0
+      internalID: 1034956801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 462
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28abd010a6ede98fda0e9bf036f80923
+      internalID: 704899866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 564
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af52e59321640549c2a3097e247662
+      internalID: 1077894815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 462
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00183e75f1684573da65f467932532a6
+      internalID: 1714170271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 564
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf533812dab2472b0bff48eb3c0c64ec
+      internalID: -1128665222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_24
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 561
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2202256f6045865e4ae488c7ee9d0348
+      internalID: 1107107558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_25
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 560
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa403e87a1b644fb78eaa7deed3587
+      internalID: -515835084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 561
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecf2cebd998662a19379fca5947bba4
+      internalID: 1764923110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 561
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9733eb7bcb8570ad5f82187c91038
+      internalID: 231216734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_28
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 562
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68ce8cd4901577f787397f9c8a94101
+      internalID: 766938730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_29
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 562
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345f37ab923add5ea937843b5cf5c370
+      internalID: -1060779719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_30
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 562
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b60c226104c0a2ea03a2ad9de9d0f3
+      internalID: 1136083429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 462
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe00be1f81f4f65fb014ddda06ac7e8
+      internalID: -1507931363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_32
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 462
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8487201e877ea1eca6d68c900f71a7f
+      internalID: 170586638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_33
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 462
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c968e8bd4688e094f920193e298343f1
+      internalID: -1876430055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_34
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 462
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e120b644115d898a7fb6e46e31f85
+      internalID: 543002625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_35
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 462
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fb357ebe475a2e48133dff482300e2
+      internalID: -1674787812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_36
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 466
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08832d45ddc191d9ba5442bf99cdf94d
+      internalID: -1996170765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8ec4112b1e6e4489bf03d93778167b
+      internalID: 1407980979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ee11c5b26682b685a678a4e5f7931
+      internalID: 831651470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83adb5234effa4a58528e9b9cfdc751
+      internalID: -1574147508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617851dd11723960b8cedaef086ecdd0
+      internalID: 38916520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_41
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1df08c7436f4b3edb398e276c39ae89
+      internalID: -561985999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_42
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5c9f3e1fa88b7a08299f19ad7514d5
+      internalID: 603795407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_43
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f2ab07fdcc6331ba1360e46304ea91
+      internalID: 2139123385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_44
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 366
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77cc8bd34093d1895edc267c6b9090
+      internalID: -1563125407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_45
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 376
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ac0a2d3a42d6703b6e78a0a26dc7e4
+      internalID: 574787896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_46
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 277
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934d95a9de3bf74ffa56cf1ccb639996
+      internalID: 1419790503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 277
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd53d3a33ecd4339d2b261c35d7a6b
+      internalID: 927125139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 278
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc48cf52b767ae6f08a92e9b5b6b4613
+      internalID: -1967664297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_49
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 278
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68f70f26f63855889c818f0691ddce
+      internalID: -2128828334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_50
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 279
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5080b90eb039d2eaf8955409ef447549
+      internalID: -518935273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_51
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 279
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da4bca706c3ce61b360f4d5adbeaaf
+      internalID: -1711735006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_52
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 280
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4895973f21a4af387ba5644df469a8b5
+      internalID: 1376113866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_53
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 282
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c156026b4d2df331a85a85d1349dbad
+      internalID: 1875509576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_54
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 283
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee456a8e9db8205aaca4e7db36bec1e
+      internalID: 1844449067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 184
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c69c714c371da45fb26cd6a13767323
+      internalID: -1738280602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_56
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 185
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3857910cc07baa8a8cfeeb467b776
+      internalID: 701621877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_57
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 187
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0befc91364c21ac128b550617eeb07aa
+      internalID: 1690833003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_58
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 187
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cbfcc74ac69196e85faf5505ef25a7
+      internalID: 1542416169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_59
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 189
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f95f7b7e7661a9d18ea57b510b7836b
+      internalID: -646790649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_60
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 190
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac490737ae4945e9a3f8b31ce26d266
+      internalID: -731477912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_61
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 196
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3c3b1d077fa4ba8dfc506f29cb6d6
+      internalID: 1101378287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_62
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 191
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbe8579621f0885195e5bfd93d64ace
+      internalID: 2033137881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_63
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16562fcb81ab4a3e0945b4395ae294c5
+      internalID: -1345523640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_64
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 192
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0219fb375319d05b09abd2c763f84096
+      internalID: -553449669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_65
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 197
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a52db6ec7480ef3aa44c0e22630c336
+      internalID: -528015649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_66
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 193
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb283ac63382b5756af1e3b10782a989
+      internalID: -362188258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_67
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 98
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7fc58ee2048c66eb6a6ed8ad6c674c
+      internalID: -342095812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_68
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f89bc858157fee908e17517cdc252
+      internalID: -2019480514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_69
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 94
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d9792e1bb98e61aad63dc2685abe8
+      internalID: -2132177524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_70
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 99
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e9a96d33fbda4599c141375ef46d6
+      internalID: -1566396422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_71
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 98
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa479cb45f42e1ed2855a21e63996fba
+      internalID: 318068707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_72
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 95
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8e0f0b4166c5cd4ad9738d1de7a902
+      internalID: 941315739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_73
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 101
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897381719af9b4829bbf3fc40c86c6fb
+      internalID: 1010978132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_74
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 98
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c2e196f104cdd1ea8572ec28301d21
+      internalID: 1536437217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_75
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 97
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1453a8744361573a2f201829c355b1
+      internalID: -20658644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_76
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 98
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f267d4b3d09cd3ff3afa8396a3fbb3bd
+      internalID: -211105653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_77
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 99
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76579b82a393fa98a67e163efddad03
+      internalID: -2039840936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_78
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 98
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f294fc10734a7a70d9f3fc2c71f3c142
+      internalID: 110029586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_79
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 102
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c81ef5d5d1d556cb5f5ded6fd84fb1
+      internalID: -469871531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_80
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 98
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7d228427c9815c8b9e114b139553b0
+      internalID: -2046184355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 104
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84721342ec3b3f819b67ea41007a6e05
+      internalID: 178494507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 99
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eaa7b4bf958a41593e39c632568468
+      internalID: -1837963911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_83
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 105
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c209dd81d457cee4e88b09db2a3b4387
+      internalID: 258038325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_84
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 99
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8701c9c8bba57f1a384dd99913dc9e44
+      internalID: 934358085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_85
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 100
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a0a982e2fa3a3359859e44c75936e4
+      internalID: -1021647129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_86
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7156b5af65a89491a6869d0e0c14c
+      internalID: -1038460486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48-482933_minecraft-explosion_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f2499fc4faffa468f24d9e7983c9dc
+      internalID: 1660518905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 69ded79dae7555e0cb9c19256deee86b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      48-482933_minecraft-explosion_0: -1658973905
+      48-482933_minecraft-explosion_1: 1160072109
+      48-482933_minecraft-explosion_10: -122868022
+      48-482933_minecraft-explosion_11: -44188580
+      48-482933_minecraft-explosion_12: -541199420
+      48-482933_minecraft-explosion_13: -869135631
+      48-482933_minecraft-explosion_14: 778696636
+      48-482933_minecraft-explosion_15: -1586397912
+      48-482933_minecraft-explosion_16: -2037974518
+      48-482933_minecraft-explosion_17: -1054320625
+      48-482933_minecraft-explosion_18: 952200946
+      48-482933_minecraft-explosion_19: 1034956801
+      48-482933_minecraft-explosion_2: -410053341
+      48-482933_minecraft-explosion_20: 704899866
+      48-482933_minecraft-explosion_21: 1077894815
+      48-482933_minecraft-explosion_22: 1714170271
+      48-482933_minecraft-explosion_23: -1128665222
+      48-482933_minecraft-explosion_24: 1107107558
+      48-482933_minecraft-explosion_25: -515835084
+      48-482933_minecraft-explosion_26: 1764923110
+      48-482933_minecraft-explosion_27: 231216734
+      48-482933_minecraft-explosion_28: 766938730
+      48-482933_minecraft-explosion_29: -1060779719
+      48-482933_minecraft-explosion_3: -942643479
+      48-482933_minecraft-explosion_30: 1136083429
+      48-482933_minecraft-explosion_31: -1507931363
+      48-482933_minecraft-explosion_32: 170586638
+      48-482933_minecraft-explosion_33: -1876430055
+      48-482933_minecraft-explosion_34: 543002625
+      48-482933_minecraft-explosion_35: -1674787812
+      48-482933_minecraft-explosion_36: -1996170765
+      48-482933_minecraft-explosion_37: 1407980979
+      48-482933_minecraft-explosion_38: 831651470
+      48-482933_minecraft-explosion_39: -1574147508
+      48-482933_minecraft-explosion_4: -106829190
+      48-482933_minecraft-explosion_40: 38916520
+      48-482933_minecraft-explosion_41: -561985999
+      48-482933_minecraft-explosion_42: 603795407
+      48-482933_minecraft-explosion_43: 2139123385
+      48-482933_minecraft-explosion_44: -1563125407
+      48-482933_minecraft-explosion_45: 574787896
+      48-482933_minecraft-explosion_46: 1419790503
+      48-482933_minecraft-explosion_47: 927125139
+      48-482933_minecraft-explosion_48: -1967664297
+      48-482933_minecraft-explosion_49: -2128828334
+      48-482933_minecraft-explosion_5: -909458775
+      48-482933_minecraft-explosion_50: -518935273
+      48-482933_minecraft-explosion_51: -1711735006
+      48-482933_minecraft-explosion_52: 1376113866
+      48-482933_minecraft-explosion_53: 1875509576
+      48-482933_minecraft-explosion_54: 1844449067
+      48-482933_minecraft-explosion_55: -1738280602
+      48-482933_minecraft-explosion_56: 701621877
+      48-482933_minecraft-explosion_57: 1690833003
+      48-482933_minecraft-explosion_58: 1542416169
+      48-482933_minecraft-explosion_59: -646790649
+      48-482933_minecraft-explosion_6: 285904800
+      48-482933_minecraft-explosion_60: -731477912
+      48-482933_minecraft-explosion_61: 1101378287
+      48-482933_minecraft-explosion_62: 2033137881
+      48-482933_minecraft-explosion_63: -1345523640
+      48-482933_minecraft-explosion_64: -553449669
+      48-482933_minecraft-explosion_65: -528015649
+      48-482933_minecraft-explosion_66: -362188258
+      48-482933_minecraft-explosion_67: -342095812
+      48-482933_minecraft-explosion_68: -2019480514
+      48-482933_minecraft-explosion_69: -2132177524
+      48-482933_minecraft-explosion_7: 2076933826
+      48-482933_minecraft-explosion_70: -1566396422
+      48-482933_minecraft-explosion_71: 318068707
+      48-482933_minecraft-explosion_72: 941315739
+      48-482933_minecraft-explosion_73: 1010978132
+      48-482933_minecraft-explosion_74: 1536437217
+      48-482933_minecraft-explosion_75: -20658644
+      48-482933_minecraft-explosion_76: -211105653
+      48-482933_minecraft-explosion_77: -2039840936
+      48-482933_minecraft-explosion_78: 110029586
+      48-482933_minecraft-explosion_79: -469871531
+      48-482933_minecraft-explosion_8: 1496003899
+      48-482933_minecraft-explosion_80: -2046184355
+      48-482933_minecraft-explosion_81: 178494507
+      48-482933_minecraft-explosion_82: -1837963911
+      48-482933_minecraft-explosion_83: 258038325
+      48-482933_minecraft-explosion_84: 934358085
+      48-482933_minecraft-explosion_85: -1021647129
+      48-482933_minecraft-explosion_86: -1038460486
+      48-482933_minecraft-explosion_87: 1660518905
+      48-482933_minecraft-explosion_9: -682278243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

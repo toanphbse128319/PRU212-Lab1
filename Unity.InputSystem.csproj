@@ -1,0 +1,2335 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Unity.InputSystem</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_0_49;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_LINUX;PLATFORM_STANDALONE;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_INPUT_SYSTEM_ENABLE_VR;UNITY_INPUT_SYSTEM_ENABLE_XR;UNITY_INPUT_SYSTEM_ENABLE_PHYSICS;UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D;UNITY_INPUT_SYSTEM_ENABLE_UI;HAS_SET_LOCAL_POSITION_AND_ROTATION;UNITY_INPUT_SYSTEM_PROJECT_WIDE_ACTIONS;UNITY_INPUT_SYSTEM_INPUT_ACTIONS_EDITOR_AUTO_SAVE_ON_FOCUS_LOST;UNITY_INPUT_SYSTEM_PLATFORM_SCROLL_DELTA;UNITY_INPUT_SYSTEM_INPUT_MODULE_SCROLL_DELTA;UNITY_INPUT_SYSTEM_SENDPOINTERHOVERTOPARENT;UNITY_INPUT_SYSTEM_ENABLE_ANALYTICS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneLinux64:24</UnityBuildTarget>
+    <UnityVersion>6000.0.49f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/DisableDeviceCommand.cs">
+      <Link>InputSystem/Devices/Commands/DisableDeviceCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/TouchControl.cs">
+      <Link>InputSystem/Controls/TouchControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryEnabledStateCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryEnabledStateCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Android/AndroidAxis.cs">
+      <Link>InputSystem/Plugins/Android/AndroidAxis.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerInputEditor.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerInputEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/MultiplayerEventSystem.cs">
+      <Link>InputSystem/Plugins/UI/MultiplayerEventSystem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/QuaternionControl.cs">
+      <Link>InputSystem/Controls/QuaternionControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/HID/HIDParser.cs">
+      <Link>InputSystem/Plugins/HID/HIDParser.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/InputStateWindow.cs">
+      <Link>InputSystem/Editor/Internal/InputStateWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/Selectors.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/Selectors.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/EditorWindowSpaceProcessor.cs">
+      <Link>InputSystem/Controls/Processors/EditorWindowSpaceProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/DualShock/DualShockGamepadHID.cs">
+      <Link>InputSystem/Plugins/DualShock/DualShockGamepadHID.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/InitiateUserAccountPairingCommand.cs">
+      <Link>InputSystem/Devices/Commands/InitiateUserAccountPairingCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/iOSSupport.cs">
+      <Link>InputSystem/Plugins/iOS/iOSSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Interactions/MultiTapInteraction.cs">
+      <Link>InputSystem/Actions/Interactions/MultiTapInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Switch/SwitchSupportHID.cs">
+      <Link>InputSystem/Plugins/Switch/SwitchSupportHID.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/MiscHelpers.cs">
+      <Link>InputSystem/Utilities/MiscHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputManager.cs">
+      <Link>InputSystem/InputManager.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/IViewStateCollection.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/IViewStateCollection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/SteamController.cs">
+      <Link>InputSystem/Plugins/Steam/SteamController.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/AnyKeyControl.cs">
+      <Link>InputSystem/Controls/AnyKeyControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/InputStateBlock.cs">
+      <Link>InputSystem/State/InputStateBlock.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/InvertProcessor.cs">
+      <Link>InputSystem/Controls/Processors/InvertProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Linux/LinuxSupport.cs">
+      <Link>InputSystem/Plugins/Linux/LinuxSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEventBuffer.cs">
+      <Link>InputSystem/Events/InputEventBuffer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/IInputControlPickerLayout.cs">
+      <Link>InputSystem/Editor/ControlPicker/IInputControlPickerLayout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputSystemPluginControl.cs">
+      <Link>InputSystem/Editor/InputSystemPluginControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/ExpressionUtils.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/ExpressionUtils.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionPropertiesView.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/CommonUsages.cs">
+      <Link>InputSystem/Controls/CommonUsages.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Settings/InputSettingsBuildProvider.cs">
+      <Link>InputSystem/Editor/Settings/InputSettingsBuildProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlLayoutChange.cs">
+      <Link>InputSystem/Controls/InputControlLayoutChange.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/SetIMECursorPositionCommand.cs">
+      <Link>InputSystem/Devices/Commands/SetIMECursorPositionCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/InputActionsEditorState.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/InputActionsEditorState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionSetupExtensions.cs">
+      <Link>InputSystem/Actions/InputActionSetupExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/TrackedDevice.cs">
+      <Link>InputSystem/Devices/TrackedDevice.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/ButtonControl.cs">
+      <Link>InputSystem/Controls/ButtonControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/InputActionSerializationHelpers.cs">
+      <Link>InputSystem/Editor/Internal/InputActionSerializationHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Haptics/SendHapticImpulseCommand.cs">
+      <Link>InputSystem/Plugins/XR/Haptics/SendHapticImpulseCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/AxisComposite.cs">
+      <Link>InputSystem/Actions/Composites/AxisComposite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/EnhancedTouch/Touch.cs">
+      <Link>InputSystem/Plugins/EnhancedTouch/Touch.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/DiscreteButtonControl.cs">
+      <Link>InputSystem/Controls/DiscreteButtonControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/ExceptionHelpers.cs">
+      <Link>InputSystem/Utilities/ExceptionHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/CompositeBindingPropertiesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/CompositeBindingPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ProjectWideActions/ProjectWideActionsBuildProvider.cs">
+      <Link>InputSystem/Editor/ProjectWideActions/ProjectWideActionsBuildProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/InputActionImporterEditor.cs">
+      <Link>InputSystem/Editor/AssetImporter/InputActionImporterEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Commands/ControlSchemeCommands.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Commands/ControlSchemeCommands.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Users/InputUserPairingOptions.cs">
+      <Link>InputSystem/Plugins/Users/InputUserPairingOptions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/InputDeviceBuilder.cs">
+      <Link>InputSystem/Devices/InputDeviceBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/NormalizeVector3Processor.cs">
+      <Link>InputSystem/Controls/Processors/NormalizeVector3Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Gamepad.cs">
+      <Link>InputSystem/Devices/Gamepad.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Vector3Control.cs">
+      <Link>InputSystem/Controls/Vector3Control.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/UISupport.cs">
+      <Link>InputSystem/Plugins/UI/UISupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Interactions/HoldInteraction.cs">
+      <Link>InputSystem/Actions/Interactions/HoldInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/NavigationModel.cs">
+      <Link>InputSystem/Plugins/UI/NavigationModel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/BuildPipeline/LinkFileGenerator.cs">
+      <Link>InputSystem/Editor/BuildPipeline/LinkFileGenerator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/KeyControl.cs">
+      <Link>InputSystem/Controls/KeyControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Settings/EditorPlayerSettingHelpers.cs">
+      <Link>InputSystem/Editor/Settings/EditorPlayerSettingHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/ActionEvent.cs">
+      <Link>InputSystem/Events/ActionEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/NameAndParameters.cs">
+      <Link>InputSystem/Utilities/NameAndParameters.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ControlSchemesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ControlSchemesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/GenericXRDevice.cs">
+      <Link>InputSystem/Plugins/XR/GenericXRDevice.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/EnhancedTouch/EnhancedTouchSupport.cs">
+      <Link>InputSystem/Plugins/EnhancedTouch/EnhancedTouchSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputAction.cs">
+      <Link>InputSystem/Actions/InputAction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionState.cs">
+      <Link>InputSystem/Actions/InputActionState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Precompiled/FastTouchscreen.cs">
+      <Link>InputSystem/Devices/Precompiled/FastTouchscreen.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/InputActionAssetEditor.cs">
+      <Link>InputSystem/Editor/AssetImporter/InputActionAssetEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/TwoModifiersComposite.cs">
+      <Link>InputSystem/Actions/Composites/TwoModifiersComposite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/StickControl.cs">
+      <Link>InputSystem/Controls/StickControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/InputActionsTreeViewItem.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/InputActionsTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Touchscreen.cs">
+      <Link>InputSystem/Devices/Touchscreen.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/PlayerInputManagerEditorAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/PlayerInputManagerEditorAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/DeviceConfigurationEvent.cs">
+      <Link>InputSystem/Events/DeviceConfigurationEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputUpdateType.cs">
+      <Link>InputSystem/InputUpdateType.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/DpadControl.cs">
+      <Link>InputSystem/Controls/DpadControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionTreeView.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XInput/XboxGamepadMacOS.cs">
+      <Link>InputSystem/Plugins/XInput/XboxGamepadMacOS.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ProjectWideActions/ProjectWideActionsAsset.cs">
+      <Link>InputSystem/Editor/ProjectWideActions/ProjectWideActionsAsset.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/InputDeviceCommand.cs">
+      <Link>InputSystem/Devices/Commands/InputDeviceCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/TakeNObservable.cs">
+      <Link>InputSystem/Utilities/Observables/TakeNObservable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/InputControlPicker.cs">
+      <Link>InputSystem/Editor/ControlPicker/InputControlPicker.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OnScreen/OnScreenSupport.cs">
+      <Link>InputSystem/Plugins/OnScreen/OnScreenSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Substring.cs">
+      <Link>InputSystem/Utilities/Substring.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputBindingResolver.cs">
+      <Link>InputSystem/Actions/InputBindingResolver.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/NormalizeProcessor.cs">
+      <Link>InputSystem/Controls/Processors/NormalizeProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/InputExitPlayModeAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/InputExitPlayModeAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/DeviceResetEvent.cs">
+      <Link>InputSystem/Events/DeviceResetEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/InternedString.cs">
+      <Link>InputSystem/Utilities/InternedString.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/IInputStateCallbackReceiver.cs">
+      <Link>InputSystem/State/IInputStateCallbackReceiver.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/Layouts/TouchscreenControlPickerLayout.cs">
+      <Link>InputSystem/Editor/ControlPicker/Layouts/TouchscreenControlPickerLayout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/iOSStepCounter.cs">
+      <Link>InputSystem/Plugins/iOS/iOSStepCounter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Debugger/SampleFrequencyCalculator.cs">
+      <Link>InputSystem/Editor/Debugger/SampleFrequencyCalculator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/IMECompositionEvent.cs">
+      <Link>InputSystem/Events/IMECompositionEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/StandaloneInputModuleEditor.cs">
+      <Link>InputSystem/Plugins/UI/StandaloneInputModuleEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Pen.cs">
+      <Link>InputSystem/Devices/Pen.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Devices/OpenVR.cs">
+      <Link>InputSystem/Plugins/XR/Devices/OpenVR.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/IOSGameController.cs">
+      <Link>InputSystem/Plugins/iOS/IOSGameController.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/VisualElementExtensions.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/VisualElementExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/DeltaStateEvent.cs">
+      <Link>InputSystem/Events/DeltaStateEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputAnalytics.cs">
+      <Link>InputSystem/InputAnalytics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XInput/IXboxOneRumble.cs">
+      <Link>InputSystem/Plugins/XInput/IXboxOneRumble.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/InputComponentEditorAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/InputComponentEditorAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/EnhancedTouch/TouchHistory.cs">
+      <Link>InputSystem/Plugins/EnhancedTouch/TouchHistory.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/MatchingControlPaths.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/MatchingControlPaths.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Precompiled/FastKeyboard.cs">
+      <Link>InputSystem/Devices/Precompiled/FastKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/ScaleProcessor.cs">
+      <Link>InputSystem/Controls/Processors/ScaleProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/ReactiveProperty.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/ReactiveProperty.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/IInputDeviceCommandInfo.cs">
+      <Link>InputSystem/Devices/Commands/IInputDeviceCommandInfo.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/RequestSyncCommand.cs">
+      <Link>InputSystem/Devices/Commands/RequestSyncCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputExtensions.cs">
+      <Link>InputSystem/InputExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/DeviceRemoveEvent.cs">
+      <Link>InputSystem/Events/DeviceRemoveEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Keyboard.cs">
+      <Link>InputSystem/Devices/Keyboard.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Devices/GoogleVR.cs">
+      <Link>InputSystem/Plugins/XR/Devices/GoogleVR.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/ClampProcessor.cs">
+      <Link>InputSystem/Controls/Processors/ClampProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Devices/WindowsMR.cs">
+      <Link>InputSystem/Plugins/XR/Devices/WindowsMR.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlLayout.cs">
+      <Link>InputSystem/Controls/InputControlLayout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/SteamSupport.cs">
+      <Link>InputSystem/Plugins/Steam/SteamSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlList.cs">
+      <Link>InputSystem/Controls/InputControlList.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/JsonParser.cs">
+      <Link>InputSystem/Utilities/JsonParser.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/HID/HIDDescriptorWindow.cs">
+      <Link>InputSystem/Plugins/HID/HIDDescriptorWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/AxisDeadzoneProcessor.cs">
+      <Link>InputSystem/Controls/Processors/AxisDeadzoneProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/SteamControllerType.cs">
+      <Link>InputSystem/Plugins/Steam/SteamControllerType.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Users/InputUserSettings.cs">
+      <Link>InputSystem/Plugins/Users/InputUserSettings.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/SerializedInputAction.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/SerializedInputAction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/Observer.cs">
+      <Link>InputSystem/Utilities/Observables/Observer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/InputActionsEditorWindow.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/InputActionsEditorWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryEditorWindowCoordinatesCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryEditorWindowCoordinatesCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/IEventMerger.cs">
+      <Link>InputSystem/Devices/IEventMerger.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Android/AndroidSensors.cs">
+      <Link>InputSystem/Plugins/Android/AndroidSensors.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Precompiled/FastMouse.partial.cs">
+      <Link>InputSystem/Devices/Precompiled/FastMouse.partial.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/INavigationEventData.cs">
+      <Link>InputSystem/Plugins/UI/INavigationEventData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/NameAndParameterListView.cs">
+      <Link>InputSystem/Editor/AssetEditor/NameAndParameterListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryUserIdCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryUserIdCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/InputValue.cs">
+      <Link>InputSystem/Plugins/PlayerInput/InputValue.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/DualShock/DualShockSupport.cs">
+      <Link>InputSystem/Plugins/DualShock/DualShockSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/WhereObservable.cs">
+      <Link>InputSystem/Utilities/Observables/WhereObservable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionPropertyDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionPropertyDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/InputBuildAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/InputBuildAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/ButtonWithOneModifier.cs">
+      <Link>InputSystem/Actions/Composites/ButtonWithOneModifier.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ActionPropertiesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ActionPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/TrackedPoseDriver.cs">
+      <Link>InputSystem/Plugins/XR/TrackedPoseDriver.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UnityRemote/UnityRemoteSupport.cs">
+      <Link>InputSystem/Plugins/UnityRemote/UnityRemoteSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionRebindingExtensions.cs">
+      <Link>InputSystem/Actions/InputActionRebindingExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputAssetEditorUtils.cs">
+      <Link>InputSystem/Editor/InputAssetEditorUtils.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryKeyNameCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryKeyNameCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OnScreen/OnScreenStick.cs">
+      <Link>InputSystem/Plugins/OnScreen/OnScreenStick.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/BindingPropertiesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/BindingPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionParameters.cs">
+      <Link>InputSystem/Actions/InputActionParameters.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Users/InputUser.cs">
+      <Link>InputSystem/Plugins/Users/InputUser.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/XRSupport.cs">
+      <Link>InputSystem/Plugins/XR/XRSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownDataSource.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownDataSource.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputParameterEditor.cs">
+      <Link>InputSystem/Editor/InputParameterEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/WebGL/WebGLSupport.cs">
+      <Link>InputSystem/Plugins/WebGL/WebGLSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputBindingPropertiesView.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputBindingPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/EditorHelpers.cs">
+      <Link>InputSystem/Editor/Internal/EditorHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEventTrace.cs">
+      <Link>InputSystem/Events/InputEventTrace.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/ExtendedAxisEventData.cs">
+      <Link>InputSystem/Plugins/UI/ExtendedAxisEventData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputSystem.cs">
+      <Link>InputSystem/InputSystem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/PredictiveParser.cs">
+      <Link>InputSystem/Utilities/PredictiveParser.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionEditorWindow.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionEditorWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputMetrics.cs">
+      <Link>InputSystem/InputMetrics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/ForDeviceEventObservable.cs">
+      <Link>InputSystem/Utilities/Observables/ForDeviceEventObservable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/SavedState.cs">
+      <Link>InputSystem/Utilities/SavedState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/OneOrMore.cs">
+      <Link>InputSystem/Utilities/OneOrMore.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputControlScheme.cs">
+      <Link>InputSystem/Actions/InputControlScheme.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionType.cs">
+      <Link>InputSystem/Actions/InputActionType.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/DelegateHelpers.cs">
+      <Link>InputSystem/Utilities/DelegateHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ViewStateCollection.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ViewStateCollection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/BaseInputOverride.cs">
+      <Link>InputSystem/Plugins/UI/BaseInputOverride.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputLayoutCodeGenerator.cs">
+      <Link>InputSystem/Editor/InputLayoutCodeGenerator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/RequestResetCommand.cs">
+      <Link>InputSystem/Devices/Commands/RequestResetCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/PropertiesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/PropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/IInputDiagnostics.cs">
+      <Link>InputSystem/IInputDiagnostics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Users/InputUserAccountHandle.cs">
+      <Link>InputSystem/Plugins/Users/InputUserAccountHandle.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/TypeTable.cs">
+      <Link>InputSystem/Utilities/TypeTable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/PropertiesViewBase.cs">
+      <Link>InputSystem/Editor/AssetEditor/PropertiesViewBase.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlAttribute.cs">
+      <Link>InputSystem/Controls/InputControlAttribute.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Haptics/IHaptics.cs">
+      <Link>InputSystem/Devices/Haptics/IHaptics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdown.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdown.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/StringHelpers.cs">
+      <Link>InputSystem/Utilities/StringHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/SerializedPropertyHelpers.cs">
+      <Link>InputSystem/Editor/Internal/SerializedPropertyHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/ScaleVector3Processor.cs">
+      <Link>InputSystem/Controls/Processors/ScaleVector3Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlExtensions.cs">
+      <Link>InputSystem/Controls/InputControlExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputProcessor.cs">
+      <Link>InputSystem/Controls/InputProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Interactions/SlowTapInteraction.cs">
+      <Link>InputSystem/Actions/Interactions/SlowTapInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/NormalizeVector2Processor.cs">
+      <Link>InputSystem/Controls/Processors/NormalizeVector2Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Remote/InputRemoting.cs">
+      <Link>InputSystem/Devices/Remote/InputRemoting.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Dialog.cs">
+      <Link>InputSystem/Editor/Dialog.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/PrimitiveValue.cs">
+      <Link>InputSystem/Utilities/PrimitiveValue.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/InputControlDropdownItem.cs">
+      <Link>InputSystem/Editor/ControlPicker/InputControlDropdownItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputDiagnostics.cs">
+      <Link>InputSystem/Editor/InputDiagnostics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryKeyboardLayoutCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryKeyboardLayoutCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/Vector2Composite.cs">
+      <Link>InputSystem/Actions/Composites/Vector2Composite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Debugger/InputLatencyCalculator.cs">
+      <Link>InputSystem/Editor/Debugger/InputLatencyCalculator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/EnableIMECompositionCommand.cs">
+      <Link>InputSystem/Devices/Commands/EnableIMECompositionCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/IInputRuntime.cs">
+      <Link>InputSystem/IInputRuntime.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Haptics/BufferedRumble.cs">
+      <Link>InputSystem/Plugins/XR/Haptics/BufferedRumble.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerInputManagerEditor.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerInputManagerEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/StickDeadzoneProcessor.cs">
+      <Link>InputSystem/Controls/Processors/StickDeadzoneProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputBinding.cs">
+      <Link>InputSystem/Actions/InputBinding.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerInput.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerInput.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/InputStateBuffers.cs">
+      <Link>InputSystem/State/InputStateBuffers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionMapDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionMapDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Haptics/GetHapticCapabilitiesCommand.cs">
+      <Link>InputSystem/Plugins/XR/Haptics/GetHapticCapabilitiesCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputSystemObject.cs">
+      <Link>InputSystem/InputSystemObject.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ActionsTreeView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ActionsTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/EnableDeviceCommand.cs">
+      <Link>InputSystem/Devices/Commands/EnableDeviceCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/WebGL/WebGLJoystick.cs">
+      <Link>InputSystem/Plugins/WebGL/WebGLJoystick.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionPhase.cs">
+      <Link>InputSystem/Actions/InputActionPhase.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/SerializedInputActionMap.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/SerializedInputActionMap.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ContextMenu.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ContextMenu.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/GUIHelpers.cs">
+      <Link>InputSystem/Editor/Internal/GUIHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Mouse.cs">
+      <Link>InputSystem/Devices/Mouse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Switch/SwitchProControllerHID.cs">
+      <Link>InputSystem/Plugins/Switch/SwitchProControllerHID.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OnScreen/OnScreenControl.cs">
+      <Link>InputSystem/Plugins/OnScreen/OnScreenControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEvent.cs">
+      <Link>InputSystem/Events/InputEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionAssetManager.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionAssetManager.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/IInputActionAssetEditor.cs">
+      <Link>InputSystem/Editor/AssetImporter/IInputActionAssetEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Devices/Oculus.cs">
+      <Link>InputSystem/Plugins/XR/Devices/Oculus.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/DoubleControl.cs">
+      <Link>InputSystem/Controls/DoubleControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/ScaleVector2Processor.cs">
+      <Link>InputSystem/Controls/Processors/ScaleVector2Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Remote/RemoteInputPlayerConnection.cs">
+      <Link>InputSystem/Devices/Remote/RemoteInputPlayerConnection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEventStream.cs">
+      <Link>InputSystem/Events/InputEventStream.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/InputEventTreeView.cs">
+      <Link>InputSystem/Editor/Internal/InputEventTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Comparers.cs">
+      <Link>InputSystem/Utilities/Comparers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/SerializedPropertyLinqExtensions.cs">
+      <Link>InputSystem/Editor/Internal/SerializedPropertyLinqExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/IInputStateTypeInfo.cs">
+      <Link>InputSystem/State/IInputStateTypeInfo.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Interactions/PressInteraction.cs">
+      <Link>InputSystem/Actions/Interactions/PressInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/DynamicBitfield.cs">
+      <Link>InputSystem/Utilities/DynamicBitfield.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/StateContainer.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/StateContainer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/OneModifierComposite.cs">
+      <Link>InputSystem/Actions/Composites/OneModifierComposite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionReferenceSearchProviders.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionReferenceSearchProviders.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/DisplayStringFormatAttribute.cs">
+      <Link>InputSystem/Utilities/DisplayStringFormatAttribute.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/CompensateRotationProcessor.cs">
+      <Link>InputSystem/Controls/Processors/CompensateRotationProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Settings/InputSettingsProvider.cs">
+      <Link>InputSystem/Editor/Settings/InputSettingsProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/InputState.cs">
+      <Link>InputSystem/State/InputState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Vector2Control.cs">
+      <Link>InputSystem/Controls/Vector2Control.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Pointer.cs">
+      <Link>InputSystem/Devices/Pointer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/EnumerableExtensions.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/EnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/AssemblyInfo.cs">
+      <Link>InputSystem/AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerJoinBehavior.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerJoinBehavior.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControl.cs">
+      <Link>InputSystem/Controls/InputControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Commands/Commands.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Commands/Commands.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Linux/SDLDeviceBuilder.cs">
+      <Link>InputSystem/Plugins/Linux/SDLDeviceBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs">
+      <Link>InputSystem/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/ICustomDeviceReset.cs">
+      <Link>InputSystem/Devices/ICustomDeviceReset.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/WarpMousePositionCommand.cs">
+      <Link>InputSystem/Devices/Commands/WarpMousePositionCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/InputSystemPackageControl.cs">
+      <Link>InputSystem/Editor/InputSystemPackageControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/MultiLevelDataSource.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/MultiLevelDataSource.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionEditorToolbar.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionEditorToolbar.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/CopyPasteHelper.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/CopyPasteHelper.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionReference.cs">
+      <Link>InputSystem/Actions/InputActionReference.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownWindow.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Debugger/InputDebuggerWindow.cs">
+      <Link>InputSystem/Editor/Debugger/InputDebuggerWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerInputManager.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownItem.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/DropManipulator.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/DropManipulator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/NativeInputRuntime.cs">
+      <Link>InputSystem/NativeInputRuntime.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/SpriteUtilities.cs">
+      <Link>InputSystem/Utilities/SpriteUtilities.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/CollectionViewSelectionChangeFilter.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/CollectionViewSelectionChangeFilter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/SerializedInputBinding.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/SerializedInputBinding.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/InputActionCodeGenerator.cs">
+      <Link>InputSystem/Editor/AssetImporter/InputActionCodeGenerator.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/BuildProviderHelpers.cs">
+      <Link>InputSystem/Editor/Internal/BuildProviderHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/OnScreenStickEditorAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/OnScreenStickEditorAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/InputActionAssetIconLoader.cs">
+      <Link>InputSystem/Editor/AssetImporter/InputActionAssetIconLoader.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/iOSPostProcessBuild.cs">
+      <Link>InputSystem/Plugins/iOS/iOSPostProcessBuild.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/HID/HID.cs">
+      <Link>InputSystem/Plugins/HID/HID.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Interactions/TapInteraction.cs">
+      <Link>InputSystem/Actions/Interactions/TapInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputBindingComposite.cs">
+      <Link>InputSystem/Actions/InputBindingComposite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/FourCC.cs">
+      <Link>InputSystem/Utilities/FourCC.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/DownloadableSample.cs">
+      <Link>InputSystem/Editor/DownloadableSample.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OnScreen/OnScreenButton.cs">
+      <Link>InputSystem/Plugins/OnScreen/OnScreenButton.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/IntegerControl.cs">
+      <Link>InputSystem/Controls/IntegerControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Android/AndroidGameController.cs">
+      <Link>InputSystem/Plugins/Android/AndroidGameController.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/InputActionsEditorConstants.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/InputActionsEditorConstants.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputManagerStateMonitors.cs">
+      <Link>InputSystem/InputManagerStateMonitors.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/InputSystemUIInputModuleEditor.cs">
+      <Link>InputSystem/Plugins/UI/InputSystemUIInputModuleEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/InputSettingsiOSProvider.cs">
+      <Link>InputSystem/Plugins/iOS/InputSettingsiOSProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/DualShock/IDualShockHaptics.cs">
+      <Link>InputSystem/Plugins/DualShock/IDualShockHaptics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/PlayerNotifications.cs">
+      <Link>InputSystem/Plugins/PlayerInput/PlayerNotifications.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionProperty.cs">
+      <Link>InputSystem/Actions/InputActionProperty.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputFeatureNames.cs">
+      <Link>InputSystem/InputFeatureNames.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/DeviceSimulator/InputSystemPlugin.cs">
+      <Link>InputSystem/Editor/DeviceSimulator/InputSystemPlugin.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/InvertVector3Processor.cs">
+      <Link>InputSystem/Controls/Processors/InvertVector3Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/SteamIGAConverter.cs">
+      <Link>InputSystem/Plugins/Steam/SteamIGAConverter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/InputDeviceChange.cs">
+      <Link>InputSystem/Devices/InputDeviceChange.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputControlPathDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputControlPathDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownGUI.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownGUI.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionAsset.cs">
+      <Link>InputSystem/Actions/InputActionAsset.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XInput/XInputController.cs">
+      <Link>InputSystem/Plugins/XInput/XInputController.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/TrackedDeviceRaycaster.cs">
+      <Link>InputSystem/Plugins/UI/TrackedDeviceRaycaster.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs">
+      <Link>InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionReferencePropertyDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionReferencePropertyDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/CSharpCodeHelpers.cs">
+      <Link>InputSystem/Utilities/CSharpCodeHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ViewBase.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ViewBase.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/VirtualMouseInput.cs">
+      <Link>InputSystem/Plugins/UI/VirtualMouseInput.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Settings/InputEditorUserSettings.cs">
+      <Link>InputSystem/Editor/Settings/InputEditorUserSettings.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/InputDeviceMatcher.cs">
+      <Link>InputSystem/Devices/InputDeviceMatcher.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/CompensateDirectionProcessor.cs">
+      <Link>InputSystem/Controls/Processors/CompensateDirectionProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/IEventPreProcessor.cs">
+      <Link>InputSystem/Devices/IEventPreProcessor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/InputStateHistory.cs">
+      <Link>InputSystem/State/InputStateHistory.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionDrawerBase.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionDrawerBase.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/ReadOnlyArray.cs">
+      <Link>InputSystem/Utilities/ReadOnlyArray.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/TypeHelpers.cs">
+      <Link>InputSystem/Utilities/TypeHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/Processors/InvertVector2Processor.cs">
+      <Link>InputSystem/Controls/Processors/InvertVector2Processor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/iOS/InputSettingsiOS.cs">
+      <Link>InputSystem/Plugins/iOS/InputSettingsiOS.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEventListener.cs">
+      <Link>InputSystem/Events/InputEventListener.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/ITextInputReceiver.cs">
+      <Link>InputSystem/Devices/ITextInputReceiver.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/AdvancedDropdown/CallbackDataSource.cs">
+      <Link>InputSystem/Editor/Internal/AdvancedDropdown/CallbackDataSource.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/InputSettings.cs">
+      <Link>InputSystem/InputSettings.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/MemoryHelpers.cs">
+      <Link>InputSystem/Utilities/MemoryHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XInput/XInputSupport.cs">
+      <Link>InputSystem/Plugins/XInput/XInputSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Android/AndroidKeyCode.cs">
+      <Link>InputSystem/Plugins/Android/AndroidKeyCode.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryCanRunInBackground.cs">
+      <Link>InputSystem/Devices/Commands/QueryCanRunInBackground.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/IInputActionCollection.cs">
+      <Link>InputSystem/Actions/IInputActionCollection.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Joystick.cs">
+      <Link>InputSystem/Devices/Joystick.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/IStreamControllerAPI.cs">
+      <Link>InputSystem/Plugins/Steam/IStreamControllerAPI.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/PlayerInput/DefaultInputActions.cs">
+      <Link>InputSystem/Plugins/PlayerInput/DefaultInputActions.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QuerySamplingFrequencyCommand.cs">
+      <Link>InputSystem/Devices/Commands/QuerySamplingFrequencyCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs">
+      <Link>InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/HID/HIDSupport.cs">
+      <Link>InputSystem/Plugins/HID/HIDSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionChange.cs">
+      <Link>InputSystem/Actions/InputActionChange.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Debugger/InputActionDebuggerWindow.cs">
+      <Link>InputSystem/Editor/Debugger/InputActionDebuggerWindow.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/StateEvent.cs">
+      <Link>InputSystem/Events/StateEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/InlinedArray.cs">
+      <Link>InputSystem/Utilities/InlinedArray.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/InputActionMapsTreeViewItem.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/InputActionMapsTreeViewItem.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OSX/OSXGameController.cs">
+      <Link>InputSystem/Plugins/OSX/OSXGameController.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/AxisControl.cs">
+      <Link>InputSystem/Controls/AxisControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/ExtendedPointerEventData.cs">
+      <Link>InputSystem/Plugins/UI/ExtendedPointerEventData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryPairedUserAccountCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryPairedUserAccountCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputInteractionContext.cs">
+      <Link>InputSystem/Actions/InputInteractionContext.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/Layouts/DefaultInputControlPickerLayout.cs">
+      <Link>InputSystem/Editor/ControlPicker/Layouts/DefaultInputControlPickerLayout.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XInput/XInputControllerWindows.cs">
+      <Link>InputSystem/Plugins/XInput/XInputControllerWindows.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/CallbackArray.cs">
+      <Link>InputSystem/Utilities/CallbackArray.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/InputActionsEditorWindowUtils.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/InputActionsEditorWindowUtils.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionAssetDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionAssetDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/Observable.cs">
+      <Link>InputSystem/Utilities/Observables/Observable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlLayoutAttribute.cs">
+      <Link>InputSystem/Controls/InputControlLayoutAttribute.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/NameAndParametersListView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/NameAndParametersListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/State/IInputStateChangeMonitor.cs">
+      <Link>InputSystem/State/IInputStateChangeMonitor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Precompiled/FastMouse.cs">
+      <Link>InputSystem/Devices/Precompiled/FastMouse.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/CompositePartBindingPropertiesView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/CompositePartBindingPropertiesView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/ArrayHelpers.cs">
+      <Link>InputSystem/Utilities/ArrayHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/DeltaControl.cs">
+      <Link>InputSystem/Controls/DeltaControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/ExtendedSubmitCancelEventData.cs">
+      <Link>InputSystem/Plugins/UI/ExtendedSubmitCancelEventData.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Sensor.cs">
+      <Link>InputSystem/Devices/Sensor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Haptics/DualMotorRumbleCommand.cs">
+      <Link>InputSystem/Devices/Haptics/DualMotorRumbleCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/InputControlPathEditor.cs">
+      <Link>InputSystem/Editor/ControlPicker/InputControlPathEditor.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/TextEvent.cs">
+      <Link>InputSystem/Events/TextEvent.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetImporter/InputActionImporter.cs">
+      <Link>InputSystem/Editor/AssetImporter/InputActionImporter.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/ActionMapsView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/ActionMapsView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/EnhancedTouch/TouchSimulation.cs">
+      <Link>InputSystem/Plugins/EnhancedTouch/TouchSimulation.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/EditorInputControlLayoutCache.cs">
+      <Link>InputSystem/Editor/EditorInputControlLayoutCache.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/InputControlPickerDropdown.cs">
+      <Link>InputSystem/Editor/ControlPicker/InputControlPickerDropdown.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/IInputInteraction.cs">
+      <Link>InputSystem/Actions/IInputInteraction.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Users/InputUserChange.cs">
+      <Link>InputSystem/Plugins/Users/InputUserChange.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/InputSystemUIInputModule.cs">
+      <Link>InputSystem/Plugins/UI/InputSystemUIInputModule.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Haptics/DualMotorRumble.cs">
+      <Link>InputSystem/Devices/Haptics/DualMotorRumble.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionMap.cs">
+      <Link>InputSystem/Actions/InputActionMap.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputBindingCompositeContext.cs">
+      <Link>InputSystem/Actions/InputBindingCompositeContext.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/InputControlTreeView.cs">
+      <Link>InputSystem/Editor/Internal/InputControlTreeView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/TouchPressControl.cs">
+      <Link>InputSystem/Controls/TouchPressControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/NumberHelpers.cs">
+      <Link>InputSystem/Utilities/NumberHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/VirtualMouseInputEditorAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/VirtualMouseInputEditorAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/GamepadButtonPropertyDrawer.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/GamepadButtonPropertyDrawer.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/SelectObservable.cs">
+      <Link>InputSystem/Utilities/Observables/SelectObservable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/InputDevice.cs">
+      <Link>InputSystem/Devices/InputDevice.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/WebGL/WebGLGamepad.cs">
+      <Link>InputSystem/Plugins/WebGL/WebGLGamepad.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/IInputEventTypeInfo.cs">
+      <Link>InputSystem/Events/IInputEventTypeInfo.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/InputActionTrace.cs">
+      <Link>InputSystem/Actions/InputActionTrace.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/TouchPhaseControl.cs">
+      <Link>InputSystem/Controls/TouchPhaseControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/ButtonWithTwoModifiers.cs">
+      <Link>InputSystem/Actions/Composites/ButtonWithTwoModifiers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/PlayerInputEditorAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/PlayerInputEditorAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/EnhancedTouch/Finger.cs">
+      <Link>InputSystem/Plugins/EnhancedTouch/Finger.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Haptics/IDualMotorRumble.cs">
+      <Link>InputSystem/Devices/Haptics/IDualMotorRumble.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Internal/TreeViewHelpers.cs">
+      <Link>InputSystem/Editor/Internal/TreeViewHelpers.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/QueryDimensionsCommand.cs">
+      <Link>InputSystem/Devices/Commands/QueryDimensionsCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/XRLayoutBuilder.cs">
+      <Link>InputSystem/Plugins/XR/XRLayoutBuilder.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/AssetEditor/ParameterListView.cs">
+      <Link>InputSystem/Editor/AssetEditor/ParameterListView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/UI/PointerModel.cs">
+      <Link>InputSystem/Plugins/UI/PointerModel.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/IInputUpdateCallbackReceiver.cs">
+      <Link>InputSystem/Devices/IInputUpdateCallbackReceiver.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/InputEditorAnalytics.cs">
+      <Link>InputSystem/Editor/Analytics/InputEditorAnalytics.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Android/AndroidSupport.cs">
+      <Link>InputSystem/Plugins/Android/AndroidSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/Commands/SetSamplingFrequencyCommand.cs">
+      <Link>InputSystem/Devices/Commands/SetSamplingFrequencyCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/PropertyDrawers/InputActionAssetSearchProvider.cs">
+      <Link>InputSystem/Editor/PropertyDrawers/InputActionAssetSearchProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Actions/Composites/Vector3Composite.cs">
+      <Link>InputSystem/Actions/Composites/Vector3Composite.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/Steam/SteamHandle.cs">
+      <Link>InputSystem/Plugins/Steam/SteamHandle.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Controls/PoseControl.cs">
+      <Link>InputSystem/Plugins/XR/Controls/PoseControl.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Controls/InputControlPath.cs">
+      <Link>InputSystem/Controls/InputControlPath.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/Views/InputActionsEditorView.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/Views/InputActionsEditorView.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Events/InputEventPtr.cs">
+      <Link>InputSystem/Events/InputEventPtr.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/NamedValue.cs">
+      <Link>InputSystem/Utilities/NamedValue.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/OSX/OSXSupport.cs">
+      <Link>InputSystem/Plugins/OSX/OSXSupport.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/InputActionsEditorSettingsProvider.cs">
+      <Link>InputSystem/Editor/UITKAssetEditor/InputActionsEditorSettingsProvider.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs">
+      <Link>InputSystem/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/ControlPicker/InputControlPickerState.cs">
+      <Link>InputSystem/Editor/ControlPicker/InputControlPickerState.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Utilities/Observables/SelectManyObservable.cs">
+      <Link>InputSystem/Utilities/Observables/SelectManyObservable.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Devices/InputDeviceDescription.cs">
+      <Link>InputSystem/Devices/InputDeviceDescription.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/Analytics/InputActionsEditorSessionAnalytic.cs">
+      <Link>InputSystem/Editor/Analytics/InputActionsEditorSessionAnalytic.cs</Link>
+    </Compile>
+    <Compile Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Plugins/DualShock/DualShockGamepad.cs">
+      <Link>InputSystem/Plugins/DualShock/DualShockGamepad.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/ControlSchemeEditor.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/ControlSchemeEditor.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/BindingPanelRowTemplate.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsTreeViewItem.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsTreeViewItem.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsProjectSettings.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsProjectSettings.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Unity.InputSystem.asmdef">
+      <Link>InputSystem/Unity.InputSystem.asmdef</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsEditor.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsEditor.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/CompositeBindingPropertiesEditor.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/CompositeBindingPropertiesEditor.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/NameAndParameterListViewItemTemplate.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/NameAndParameterListViewItemTemplate.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/CompositePartBindingPropertiesEditor.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/CompositePartBindingPropertiesEditor.uxml</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorDark.uss">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorDark.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsEditorStyles.uss">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionsEditorStyles.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorLight.uss">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorLight.uss</Link>
+    </None>
+    <None Include="/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.inputsystem@7fe8299111a7/InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionMapsTreeViewItem.uxml">
+      <Link>InputSystem/Editor/UITKAssetEditor/PackageResources/InputActionMapsTreeViewItem.uxml</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.visualscripting@7dcdc439b230/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>/home/Yuuji/Second/UnityWorkplace/Labs/lab1/SpaceShooter/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.Apple.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/run/media/Second/UnityWorkplace/6000.0.49f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>
