@@ -10,18 +10,21 @@ public class ObjectManager : MonoBehaviour
     public float despawnDistance = 100f;
     public float minDistanceBetweenObjects = 10f;
     public int maxSpawnAttempts = 20;
-
+    public Pause Pause;
     private List<GameObject> activeObjects = new List<GameObject>();
-
+    private GameObject spawnLocation;
     void Start()
     {
+        if (Pause.IsPaused == true)
+            return;
+        spawnLocation = GameObject.Find("AsteroidSpawner");
         for (int i = 0; i < numberOfObjects; i++)
         {
             Vector3 spawnPos = GetValidSpawnPosition();
             if (spawnPos != Vector3.zero)
             {
                 GameObject prefab = GetRandomPrefab();
-                GameObject obj = Instantiate(prefab, spawnPos, Quaternion.identity);
+                GameObject obj = Instantiate(prefab, spawnPos, Quaternion.identity, spawnLocation.transform);
                 obj.SetActive(true);
                 obj.name = obj.name + "_" + i;
                 activeObjects.Add(obj);
@@ -31,6 +34,8 @@ public class ObjectManager : MonoBehaviour
 
     void Update()
     {
+        if (Pause.IsPaused == true)
+            return;
         for (int i = activeObjects.Count - 1; i >= 0; i--)
         {
             float distance = Vector3.Distance(activeObjects[i].transform.position, shipTransform.position);
@@ -41,7 +46,7 @@ public class ObjectManager : MonoBehaviour
                 if (newSpawnPos != Vector3.zero)
                 {
                     GameObject prefab = GetRandomPrefab();
-                    GameObject newObj = Instantiate(prefab, newSpawnPos, Quaternion.identity);
+                    GameObject newObj = Instantiate(prefab, newSpawnPos, Quaternion.identity, spawnLocation.transform);
                     newObj.name = newObj.name + "_" + i;
                     newObj.SetActive(true);
                     activeObjects[i] = newObj;

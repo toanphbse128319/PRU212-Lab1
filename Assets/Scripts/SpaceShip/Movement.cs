@@ -16,6 +16,7 @@ public class Movement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        PlayerPrefs.DeleteAll();
         spriteRenderer.sprite = sprites[1];
         _fuelbar = GetComponentInChildren<Fuelbar>();
     }
@@ -49,6 +50,11 @@ public class Movement : MonoBehaviour
             if(StopIfDisabled.activeSelf == false)
                 return;
         } else {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Pause pauser = GetComponent<Pause>();
+                pauser.onPause();
+            }
             ChangeFlameIntensity((int) Input.GetAxis("Vertical"));
             float x = -1 * Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical") * Time.deltaTime;

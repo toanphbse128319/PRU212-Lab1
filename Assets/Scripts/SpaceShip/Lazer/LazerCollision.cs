@@ -32,7 +32,7 @@ public class LazerCollision : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if(gameObject.activeSelf == false || other.name == "Atom")
+        if(gameObject.activeSelf == false || other.name == "Fuel")
             return;
         collided = true;
         Vector2 currentPosition = transform.position;

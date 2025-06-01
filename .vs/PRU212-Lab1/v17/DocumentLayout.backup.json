@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gamemanager\\buttonbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\buttonbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gamemanager\\objectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\objectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gameover\\managehighscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover\\managehighscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\asteroid\\asteroidmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\asteroid\\asteroidmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\lazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\lazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gameover\\prompt\\nameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover\\prompt\\nameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Prompt\\Input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameOver\\Prompt\\Input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\pointcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\pointcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\ui\\fuelbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\fuelbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\lazer\\lazercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\lazer\\lazercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gameover\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\gameover\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover\\highscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phamd\\AppData\\LocalLow\\DefaultCompany\\SpaceShooter\\highscore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\assets\\scripts\\spaceship\\lose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9382405C-8CCE-17B8-2695-8AA31FFF8540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spaceship\\lose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Collision.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Collision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Collision.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Collision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Collision.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:58:13.288Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputSystemUIInputModule.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\UI\\InputSystemUIInputModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:47:04.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseInput.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\EventSystem\\InputModules\\BaseInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:37:13.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CanvasScaler.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@9b7e7eef789d\\Runtime\\UGUI\\UI\\Core\\Layout\\CanvasScaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:33:57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonBehavior.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameManager\\ButtonBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\ButtonBehavior.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameManager\\ButtonBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\ButtonBehavior.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:38:17.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pause.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Pause.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Pause.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Pause.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Pause.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:33:50.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectManager.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameManager\\ObjectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\ObjectManager.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameManager\\ObjectManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\ObjectManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:29:37.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AsteroidMovement.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\Asteroid\\AsteroidMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Asteroid\\AsteroidMovement.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\Asteroid\\AsteroidMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Asteroid\\AsteroidMovement.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:50:04.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "highscore.json",
+              "DocumentMoniker": "C:\\Users\\phamd\\AppData\\LocalLow\\DefaultCompany\\SpaceShooter\\highscore.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Users\\phamd\\AppData\\LocalLow\\DefaultCompany\\SpaceShooter\\highscore.json",
+              "ToolTip": "C:\\Users\\phamd\\AppData\\LocalLow\\DefaultCompany\\SpaceShooter\\highscore.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Users\\phamd\\AppData\\LocalLow\\DefaultCompany\\SpaceShooter\\highscore.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T07:23:30.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LazerCollision.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lazer\\LazerCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Lazer\\LazerCollision.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lazer\\LazerCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Lazer\\LazerCollision.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:00:23.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lazer.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lazer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Lazer.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lazer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Lazer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:00:08.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Movement.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Movement.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:47:44.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Fuelbar.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\UI\\Fuelbar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Fuelbar.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\UI\\Fuelbar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Fuelbar.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:17:26.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lose.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lose.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\Lose.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\Lose.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\Lose.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:13:23.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T06:03:22.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PointCalculator.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\PointCalculator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShip\\PointCalculator.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\SpaceShip\\PointCalculator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShip\\PointCalculator.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:56:42.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\FileManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver\\FileManager.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\FileManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOver\\FileManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:20:30.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Highscore.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Highscore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver\\Highscore.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Highscore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOver\\Highscore.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:02:24.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageHighScore.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\ManageHighScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver\\ManageHighScore.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\ManageHighScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOver\\ManageHighScore.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:57:25.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NameInput.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Prompt\\NameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver\\Prompt\\NameInput.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Prompt\\NameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOver\\Prompt\\NameInput.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:32:20.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Input.cs",
+              "DocumentMoniker": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Prompt\\Input.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver\\Prompt\\Input.cs",
+              "ToolTip": "C:\\FPTU\\Spring2025\\PRU212\\LAB1\\LAB1_Version2\\PRU212-Lab1\\Assets\\Scripts\\GameOver\\Prompt\\Input.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOver\\Prompt\\Input.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:31:34.992Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
